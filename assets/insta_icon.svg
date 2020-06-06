@@ -1,0 +1,15 @@
+<svg id="insta_icon" xmlns="http://www.w3.org/2000/svg" width="36.36" height="36.36" viewBox="0 0 36.36 36.36">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #344131;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <path id="base_circle" data-name="base circle" class="cls-1" d="M36.54,18.91A18.18,18.18,0,1,1,18.36.73h0A18.18,18.18,0,0,1,36.54,18.91Z" transform="translate(-0.19 -0.73)"/>
+  <path id="inner_icon" data-name="inner icon" class="cls-2" d="M25.33,7.55H11.39A4.4,4.4,0,0,0,7,11.94V25.88a4.41,4.41,0,0,0,4.39,4.4H25.33a4.41,4.41,0,0,0,4.4-4.4V11.94A4.41,4.41,0,0,0,25.33,7.55Zm1.26,2.62h.5V14l-3.83,0,0-3.85ZM15.12,16.58a4,4,0,1,1-.76,2.33A4.08,4.08,0,0,1,15.12,16.58Zm12.39,9.3a2.18,2.18,0,0,1-2.18,2.18H11.39a2.18,2.18,0,0,1-2.17-2.18v-9.3h3.39a6.21,6.21,0,1,0,11.51,0h3.39Z" transform="translate(-0.19 -0.73)"/>
+</svg>
