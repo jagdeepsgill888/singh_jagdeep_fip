@@ -1,0 +1,183 @@
+
+p
+
+color: #fff
+
+
+
+
+
+
+
+siteContainer
+
+ width: 1366px
+
+
+logo
+
+  
+ width: 261px
+ height: 92px
+ background: #4066AA
+  
+
+mainNav
+
+  
+  width: 821px
+  height: 92px
+  background: #4066AA
+
+
+
+
+
+heroImage 
+
+  width: 1250px
+  height: 448px
+  
+
+
+tagLineImage
+
+  width: 1250px
+  height: 393px
+  background: #4066AA
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+HomeBeerPromoText
+    
+  width: 572px
+  height: 338px
+  background: #293F67
+
+
+HomeBeerPromoImg
+
+ 
+  width: 343px
+  height: 338px
+  background: #293F67
+
+
+
+charity
+
+ 
+  background: #4066AA
+
+
+charityText
+
+  width: 377px
+  height: 308px
+  background: #293F67
+
+
+homeEvents
+
+  background: #4066AA
+
+
+eventsText
+
+  width: 1100px
+  height: 191px
+  background: #293F67;
+
+
+
+
+
+theEvents
+
+  background: #4066AA;
+
+
+
+
+events1
+
+  width: 310px
+  height: 254px
+  background: #293F67;
+
+
+events2
+
+  width: 310px
+  height: 254px
+  background: #293F67
+
+
+events3
+
+  width: 310px;
+  height: 254px;
+  background: #293F67
+
+
+
+
+upperFooter
+	
+  background: #4066AA;
+
+
+
+footerLogo
+
+  width: 186px
+  height: 166px
+  background: #293F67
+
+
+footerContact
+
+  width:186px
+  height: 166px
+  background: #293F67
+
+
+footerNews
+
+  width:186px
+  height: 166px
+  background: #293F67
+
+
+
+footerNav
+
+  width: 186px
+  height: 166px
+  background: #293F67
+
+
+social
+
+  background: #4066AA
+
+
+
+socialMedia
+
+  width: 422px
+  height: 57px
+  background: #293F67
+
+
