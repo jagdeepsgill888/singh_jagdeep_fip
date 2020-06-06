@@ -18,6 +18,13 @@ h3
 	text-align: center;
 }
 
+
+h4
+{
+	font-size: 24px;
+	text-align: center;
+}
+
 a
 {
 	text-decoration: none;
@@ -403,15 +410,20 @@ a
 	display: flex;
 	flex-direction: row;
   justify-content: space-between;
-	padding-bottom: 40px;
-  background: #4066AA;
+  background: #080C08;
 }
 
-#upperFooter p
+#upperFooter h4
 {
-  line-height: 180px;
+  line-height: 25px;
+	color: #D4D4D4;
 }
 
+#upperFooter p, a
+{
+	font-size: 12px;
+	color: #707070;
+}
 
 #footerLogo
 {
@@ -429,7 +441,37 @@ a
   height: 166px;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67
+}
+
+
+#footerContact p
+{
+	margin-top: 20px;
+	line-height: 2px;
+}
+
+.phone
+{
+	padding-top: 10px;
+	padding-bottom: 23px;
+}
+
+.footerButton
+{
+	  background-color: #1C6836;
+	  border-radius: 20px;
+	  width: 75px;
+	  height: 24px;
+	  border: none;
+	  color: white;
+	  margin-left: 50px;
+	  padding: 5px 5px 5px 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 10px;
+		line-height: 24px;
+	  cursor: pointer;
 }
 
 #footerNews
@@ -438,7 +480,12 @@ a
   height: 166px;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67
+}
+
+#footerNews p
+{
+	line-height: 22px;
+	padding: 13px 25px 20px 25px;
 }
 
 
@@ -449,7 +496,19 @@ a
   margin-top:30px;
   margin-right: 150px;
   margin-bottom: 20px;
-  background: #293F67
+}
+
+#footerNav ul li {
+	text-decoration: none;
+	text-align: left;
+	padding-top: 12px;
+	margin-left: 40px;
+	padding-left: 30px;
+}
+
+#footerNav ul li a:hover
+{
+ color: #3FA353;
 }
 
 #social
@@ -457,21 +516,39 @@ a
   display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #4066AA;
+  background: #080C08;
 }
 
 
 #socialMedia
 {
-  width: 422px;
-  height: 57px;
-  margin-top: 20px;
+  width: 500px;
+  height: 50px;
   margin-left: 470px;
-  margin-bottom: 50px;
   background: #293F67;
 }
 
-#socialMedia p
+#socialMedia ul li
 {
-  line-height: 55px;
+	display: inline-flex;
+	padding-left: 28px;
+	padding-right: 90px;
 }
+
+
+#socialMedia ul li a img
+{
+	width:43px;
+	height: 43px;
+
+}
+
+#socialMedia ul li a img:hover
+{
+	color: #3FA353;
+}
+
+/* #twitter
+{
+	margin-right: 20px;
+} */
