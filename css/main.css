@@ -9,7 +9,6 @@ body
 p
 {
 	color: #fff;
-	line-height: 100px;
 	text-align: center;
 	margin: 0;
 }
@@ -238,15 +237,16 @@ a
 {
   margin-bottom: 10px;
 	padding-bottom: 40px;
+  height: 446px;
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #4066AA;
+  background: url(../images/community.jpg) no-repeat bottom;
 }
 
 #charityText
 {
-	width: 377px;
+	width: 458px;
   height: 308px;
   margin-top: 90px;
   margin-left: 120px;
@@ -256,7 +256,16 @@ a
 
 #charityText p
 {
-  line-height: 290px;
+  text-align: center;
+  margin-top: 80px;
+  padding: 20px 55px 0px 60px;;
+}
+
+#charityText h2
+{
+  text-align: center;
+  margin-top: 40px;
+  font-size: 34px;
 }
 
 
