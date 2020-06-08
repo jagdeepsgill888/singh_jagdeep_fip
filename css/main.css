@@ -761,3 +761,16 @@ cursor: pointer;
 		 {
 			 height: 110px;
 		 }
+
+
+		 #award1 a:hover {
+		   filter: grayscale(80%);
+		 }
+
+		 #award2 a:hover {
+		 	filter: grayscale(80%);
+		 }
+
+		 #award3 a:hover {
+		   filter: grayscale(80%);
+		 }
