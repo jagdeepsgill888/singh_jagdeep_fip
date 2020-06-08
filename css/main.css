@@ -566,9 +566,10 @@ a
 
 #aboutHero {
 width: 1250px;
- height: 549px;
- margin-left: 50px;
+ height: 465px;
+ margin-left: 60px;
  margin-right: 30px;
+ margin-bottom: 20px;
  background: url(../images/about_hero.jpg) no-repeat bottom;
 }
 
@@ -577,7 +578,7 @@ width: 1250px;
  font-size: 53px;
  line-height: 480px;
  color: #EEEBEB;
- padding-top: 60px;
+ padding-top: 10px;
  text-align: center;
 }
 
