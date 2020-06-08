@@ -105,6 +105,12 @@ a
   margin-left: 20px;
 }
 
+#logo img
+{
+	width: 175px;
+	margin-top: 15px;
+}
+
 #mainNav
 {
   margin-top: 20px;
@@ -234,7 +240,6 @@ a
 
 #homeBeer
 {
-  margin-bottom: 10px;
 	padding-bottom: 40px;
 	display: flex;
 	flex-direction: row;
@@ -312,6 +317,7 @@ a
 {
 	padding-bottom: 40px;
 	display: flex;
+	margin-top: 10px;
 	flex-direction: row;
   justify-content: flex-start;
   background: #212020;
@@ -431,7 +437,17 @@ a
   margin-top:30px;
   margin-left: 150px;
   margin-bottom: 20px;
-  background: #293F67;
+}
+
+#footerLogo img
+{
+	width:130px;
+}
+
+#footerLogo p
+{
+	margin-top: 70px;
+	margin-right: 20px;
 }
 
 #footerContact
@@ -524,7 +540,6 @@ a
   width: 500px;
   height: 50px;
   margin-left: 470px;
-  background: #293F67;
 }
 
 #socialMedia ul li
@@ -542,7 +557,7 @@ a
 
 }
 
-#socialMedia ul li a img:hover
+#socialMedia ul li a:hover
 {
 	color: #3FA353;
 }
