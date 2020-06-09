@@ -619,7 +619,6 @@ width: 1250px;
   margin-top: 60px;
   margin-left: 120px;
   margin-bottom: 50px;
-  background: #293F67;
 }
 
 #aboutWhoImg
@@ -630,7 +629,7 @@ width: 1250px;
   margin-bottom: 50px;
 	width: 383px;
   height: 370px;
-  background: #293F67;
+  background:url(../images/about_who.jpg) no-repeat bottom;
 }
 
 #partnership
