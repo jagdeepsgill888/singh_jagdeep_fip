@@ -1062,15 +1062,6 @@ width: 1250px;
 	text-align: center;
 }
 
-#contactUs p
-{
-	margin-top: 5px;
-	font-size: 21px;
-	line-height: 25px;
-	color: #C9C9C9;
-	text-align: left;
-}
-
 
 #contactText
 {
@@ -1081,17 +1072,39 @@ width: 1250px;
 
 }
 
+#contactText p
+{
+	margin-top: 5px;
+	font-size: 21px;
+	line-height: 25px;
+	color: #C9C9C9;
+	text-align: left;
+}
+
+
 #contactImg
 {
 	margin-left: 160px;
-  margin-top: 60px;
+  margin-top: 90px;
   margin-right: 60px;
   margin-bottom: 50px;
-	width: 383px;
-  height: 370px;
-  background: #293F67;
+	width: 433px;
+  height: 400px;
+  background: url(../images/contact_hours.jpg) no-repeat bottom;
 }
 
+#contactImg h3
+{
+	color: #fff;
+	margin-top: 80px;
+	line-height: 100px;
+}
+
+#contactImg p
+{
+	line-height: 30px;
+	margin-top: 50px;
+}
 
 #contactPartner
 {
@@ -1104,6 +1117,12 @@ width: 1250px;
 	height: 392px;
 	margin-bottom: 10px;
 	background: url(../images/contact_partner.jpg) no-repeat bottom;
+}
+
+#contactPartner p
+{
+	text-align: center;
+
 }
 
 #contactPartnerText
