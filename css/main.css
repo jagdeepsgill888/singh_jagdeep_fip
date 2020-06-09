@@ -1041,3 +1041,121 @@ width: 1250px;
  padding-top: 10px;
  text-align: center;
 }
+
+
+#contactUs
+{
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+  background: #2E542F;
+	height: 480px;
+}
+
+#contactUs h2
+{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 34px;
+  color: #EEEBEB;
+	text-align: center;
+}
+
+#contactUs p
+{
+	margin-top: 5px;
+	font-size: 21px;
+	line-height: 25px;
+	color: #C9C9C9;
+	text-align: left;
+}
+
+
+#contactText
+{
+	width: 590px;
+  height: 475px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+
+}
+
+#contactImg
+{
+	margin-left: 160px;
+  margin-top: 60px;
+  margin-right: 60px;
+  margin-bottom: 50px;
+	width: 383px;
+  height: 370px;
+  background: #293F67;
+}
+
+
+#contactPartner
+{
+	padding-bottom: 40px;
+	display: flex;
+	flex-direction: row;
+  justify-content: flex-start;
+  background: #2E542F;
+	margin-top: 10px;
+	height: 392px;
+	margin-bottom: 10px;
+	background: url(../images/contact_partner.jpg) no-repeat bottom;
+}
+
+#contactPartnerText
+{
+	width: 590px;
+  height: 370px;
+  margin-top: 40px;
+  margin-left: 120px;
+  margin-bottom: 50px;
+}
+
+#contactPartnerText h2
+{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 34px;
+  color: #EEEBEB;
+	text-align: left;
+}
+
+#contactPartnerText p
+{
+	margin-top: 60px;
+	font-size: 21px;
+	line-height: 25px;
+	color: #F5F4F4;
+	text-align: left;
+}
+
+
+
+#contactForm {
+  margin-top:35px;
+	display: flex;
+	flex-direction:column;
+	justify-content: space-between;
+	line-height: 20px;
+	color: #fff;
+
+}
+
+
+#submit {
+
+  color: #FFF;
+
+  background-color: #000;
+
+  border: 1px solid #000;
+}
+
+#rightArea {
+  width: 360px;
+  margin-left: 90px;
+}
