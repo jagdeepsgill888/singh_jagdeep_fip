@@ -775,3 +775,51 @@ cursor: pointer;
 		 #award3 a:hover {
 		   filter: grayscale(80%);
 		 }
+
+/*page 3*/
+
+#productsHero {
+width: 1250px;
+ height: 465px;
+ margin-left: 60px;
+ margin-right: 30px;
+ margin-bottom: 20px;
+ background: url(../images/product_hero.jpg) no-repeat bottom;
+}
+
+#productsHero h2
+{
+ font-size: 53px;
+ line-height: 480px;
+ color: #EEEBEB;
+ padding-top: 10px;
+ text-align: center;
+}
+
+#subBanner
+{
+	height: 130px;
+	background: #2E542F;
+	margin-bottom: 40px;
+}
+
+#subBanner h2
+{
+	font-size: 34px;
+	color: #EEEBEB;
+	padding: 45px;
+	text-align: center;
+
+}
+
+#beerOptions
+{
+	margin-bottom: 10px;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin: 90px;
+ height: 996px;
+ background: #ccc;
+
+}
