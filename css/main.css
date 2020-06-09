@@ -1023,3 +1023,21 @@ line-height: 80px;
 border-style: groove;
 border: 1px solid grey;
 }
+
+/*page5 - Contact */
+
+#contactHero {
+width: 1250px;
+ height: 465px;
+ margin: 20px 30px 20px 60px;
+ background: url(../images/contact_hero.jpg) no-repeat bottom;
+}
+
+#contactHero h2
+{
+ font-size: 53px;
+ line-height: 480px;
+ color: #EEEBEB;
+ padding-top: 10px;
+ text-align: center;
+}
