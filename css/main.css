@@ -1,91 +1,37 @@
-body
-{
-	font-family: 'Segoe UI', Arial, sans-serif;
-	font-size: 14px;
-  font-weight: 400;
-}
+
+
+
+
+
+
+
+
+
 
 p
 {
 	color: #fff;
+	line-height: 100px;
 	text-align: center;
 	margin: 0;
 }
 
-h3
-{
-	font-size: 34px;
-	text-align: center;
-}
-
-
-h4
-{
-	font-size: 24px;
-	text-align: center;
-}
-
-a
-{
-	text-decoration: none;
-}
 
 .hidden {
   display: none;
 }
 
-.button {
-  background-color: #4CAF50; /* Green */
-  border-radius: 37px;
-  width: 120px;
-  height: 26px;
-  border: none;
-  color: white;
-  margin-top: 60px;
-  margin-left: 120px;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 25px;
-  cursor: pointer;
-}
 
-.button2 {
-  background-color: #4CAF50; /* Green */
-  border-radius: 37px;
-  width: 120px;
-  height: 26px;
-  border: none;
-  color: white;
-  margin-top: 45px;
-  margin-left: 155px;
-  padding: 20px 20px 20px 20px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 23px;
-  cursor: pointer;
-}
-
-.button:active
-{
-  position: relative;
-  top: 2px;
-}
-
-.button2:active
-{
-  position: relative;
-  top: 2px;
-}
 
 
 #siteContainer
 {
 	margin: 0 auto;
-	width: 1366px;
+	max-width: 1366px;
 }
+
+/*mobile first*/
+
 
 #mainHeader
 {
@@ -93,78 +39,68 @@ a
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
+	background:#153015;
 	border-bottom: solid 2px #ccc;
-  background: #153015;
 }
 
 #logo
 {
-  margin-top: 20px;
-	width: 261px;
-  height: 92px;
+  margin-top: 37px;
   margin-left: 20px;
+  height: 65px;
 }
 
-#logo img
-{
-	width: 175px;
-	margin-top: 15px;
+#logo img {
+	width: 125px;
 }
 
 #mainNav
 {
   margin-top: 20px;
-  margin-left: auto;
   margin-right: 20px;
-	width: 821px;
+	width: 100px;
   height: 92px;
+  background: #4066AA;
+	display: none;
 }
 
-#mainNav ul
-{
-	text-transform: uppercase;
-  margin-top: 27px;
-	display: flex;
-	flex-direction: row;
-}
-
-#mainNav ul li a
-{
+.menu-toggle {
+	margin-left: auto;
+  margin-right: 20px;
+	color: #fff;
+	float: right;
+	line-height: 120px;
+	font-size: 24px;
+	cursor: pointer;
 	display: block;
-  font-size: 25px;
-  padding: 17px;
-  color:  #E1E1E1;
 }
 
-#mainNav ul li a:hover
-{
-  color: #3FA353;
+.menu-toggle button {
+  background: url(../assets/burger.svg) center no-repeat;
+  border: 0px;
+  height: 50px;
+	width: 50px;
+  transition: all 400ms ease;
 }
-
 
 #hero
-{padding-top: 55px;
+{
+  margin-top: 55px;
 	padding-bottom: 20px;
-  background: #EEECEC;
 
 }
 
 
  #heroImage {
- width: 1250px;
-  height: 480px;
-  margin-left: 55px;
-  margin-right: 30px;
-  background: url(../images/hero.jpg) no-repeat bottom;
+  height: 448px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: #4066AA;
 }
 
-#heroImage h2
+#heroImage p
 {
-  font-size: 53px;
-  line-height: 480px;
-  color: #EEEBEB;
-  padding-top: 60px;
-  text-align: center;
+  line-height: 450px;
 }
 
 
@@ -177,11 +113,8 @@ a
 
 #tagLineImage
 {
-  width: 1250px;
   height: 393px;
-  margin-left: 50px;
-  margin-right: 30px;
-  background: url(../images/home_banner_2.jpg) no-repeat bottom;
+  background: #4066AA;
 }
 
 #tagLineImage p
@@ -189,29 +122,7 @@ a
   line-height: 200px;
 }
 
-/*#HomeBeer
-{
-  margin-top: 40px;
-  padding-bottom: 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  border-bottom: solid 2px #ccc;
-}
 
-#HomeBeerPromoText
-{
-  width: 572px;
-  height: 338px;
-  background: #293F67;
-}
-
-#HomeBeerPromoImg {
-  width: 343px;
-  height: 338px;
-  margin-left: auto;
-  background: #293F67;
-} */
 
 #HomeBeerPromoText1
 {
@@ -224,6 +135,14 @@ a
 	border-bottom: solid 2px #ccc;
 }
 
+#homeBeer1
+{
+  margin-top: 20px;
+	width: 261px;
+  height: 92px;
+  background: #4066AA;
+  margin-left: 20px;
+}
 
 #HomeBeerPromoImg1
 {
@@ -240,83 +159,68 @@ a
 
 #homeBeer
 {
-	padding-bottom: 40px;
+	padding-bottom: 1px;
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #2E542F;
-	max-height: 457px;
+  background: #4066AA;
+	height: 273.25px;
 }
 
-#homeBeer h2
+#homeBeer p
 {
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 50px;
-  color: #EEEBEB;
+
 }
 
 #HomeBeerPromoText
 {
-	width: 572px;
-  height: 338px;
-  margin-top: 90px;
-  margin-left: 120px;
+	width: 42%;
+  height: 34%;
+  margin-top: 105px;
+  margin-left: 10px;
+	margin-right: 10px;
   margin-bottom: 50px;
+  background: #293F67;
+
 }
 
 #HomeBeerPromoImg
 {
-	margin-left: 160px;
-  margin-top: 90px;
-  margin-right: 60px;
+	margin-left: 30px;
+  margin-top: 70px;
   margin-bottom: 50px;
-	width: 347px;
-  height: 338px;
-  background: url(../images/testing/product_image.png) no-repeat bottom;
-}
-
-#HomeBeerPromoImg p
-{
-	line-height: 150px;
-	padding-top: 110px;
+	width: 42%;
+  height: 55.5%;
+	order: -1;
+  background: #293F67;
 }
 
 
 #charity
 {
-	padding-bottom: 10px;
-  height: 392px;
+  margin-bottom: 10px;
+	min-height: 282px;
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: url(../images/community.jpg) no-repeat bottom;
-	margin-top: 25px;
+  background: #4066AA;
+  margin-top: 25px;
 }
 
 #charityText
 {
-	width: 458px;
-  margin-top: 58px;
-  margin-left: 35%;
+	min-width: 292px;
+  margin-top: 25px;
+  margin-left: 10%;
+	margin-right: 10%;
+  margin-bottom: 25px;
+	flex-grow: 1;
+  background: #293F67;
 }
 
 #charityText p
 {
-  text-align: center;
-  margin-top: 80px;
-  padding: 20px 10px 0px 20px;
-	line-height: 20px;
-	color: #E3DBDB;
-	font-size: 21px;
-}
-
-#charityText h2
-{
-  text-align: center;
-  font-size: 34px;
-	font-weight: bold;
-	color: #3F973C;
+  line-height: 290px;
 }
 
 
@@ -324,863 +228,866 @@ a
 {
 	padding-bottom: 15px;
 	display: flex;
-	margin-top: 10px;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #212020;
+  background: #4066AA;
+	margin-top: 20px;
 }
 
 #eventsText
 {
-  width: 1100px;
-  height: 130px;
-  margin-top: 50px;
-  margin-left: 120px;
-  margin-bottom: 10px;
-  background: #212020;
-	font-size: 25px;
+  min-width: 230px;
+  min-height: 110px;
+  margin: 25px auto auto auto;
+  background: #293F67;
 }
 
-#eventsText h3
+#eventsText p
 {
-	color: #F3F3F3;
-	padding-left: 77px;
-}
-
-
-
-#eventsText	p
-{
-	text-align: left;
-	line-height: 50px;
-	margin-top: o;
-}
-
-
-.subheading
-{
-	font-size: 32px;
-	color: #4BAF48;
-	text-align: left;
-}
-
-.lowerSub
-{
-	color: #367D34;
+  line-height: 120px;
 }
 
 #theEvents
 {
-  margin-bottom: 10px;
+  margin: 0 auto;
+	margin-bottom: 25px;;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
   justify-content: space-between;
-	padding-bottom: 40px;
-  background: #212020;
+	padding-bottom: 5px;
+  background: #4066AA;
+	flex-wrap: nowrap;
 }
 
 #theEvents p
 {
-  line-height: 60px;
-	font-size: 25px;
-	text-align: left;
-	margin-left: 30px;
-	margin-top: 15px;
+  line-height: 260px;
 }
 
-#events1
+/*#event1
 {
-  width: 310px;
-  height: 254px;
-  margin-top:30px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-  background: #505050;
-}
-
-#events2
-{
-  width: 310px;
-  height: 254px;
   margin-top:30px;
   margin-bottom: 50px;
-  background: #505050;
+  background: #293F67;
+}  */
+
+.events
+{
+
+	min-width: 266.96px;
+  min-height:145.94px;
+  /* margin-top:30px; */
+	 margin: 30px;
+  margin-bottom: 50px;
+	flex-grow: 1;
+  background: #293F67
 }
 
-#events3
+/*#event3
 {
-  width: 310px;
-  height: 254px;
+	width: 266.96px;
+  height:145.94px;
   margin-top:30px;
   margin-right: 120px;
   margin-bottom: 50px;
-  background: #505050;
-}
+  background: #293F67
+} */
 
 #upperFooter
 {
-	display: flex;
+	display: grid;
 	flex-direction: row;
-  justify-content: space-between;
-  background: #080C08;
+	grid-template-columns: 1fr 1fr;
+  grid-template-rows:  1fr 0.5fr 0.5fr 0.5fr ;
+	padding-bottom: 40px;
+  background: #4066AA;
+	padding: 25px;
+	  grid-gap: 1em;
+
 }
 
-#upperFooter h4
+#upperFooter p
 {
-  line-height: 25px;
-	color: #D4D4D4;
+  line-height: 180px;
 }
 
-#upperFooter p, a
-{
-	font-size: 12px;
-	color: #707070;
-}
 
 #footerLogo
 {
-  width: 186px;
-  height: 166px;
-  margin-top:30px;
-  margin-left: 150px;
+	grid-column: 1/3;
+	grid-row: 3/4;
+	height: 100px;
+	margin-left: 40px;
+	margin-right: 40px;
   margin-bottom: 20px;
-}
-
-#footerLogo img
-{
-	width:130px;
-}
-
-#footerLogo p
-{
-	margin-top: 70px;
-	margin-right: 20px;
+  background: #293F67;
 }
 
 #footerContact
 {
-  width:186px;
-  height: 166px;
+	grid-column: 1/2;
+	grid-row: 1/2;
   margin-top:30px;
   margin-bottom: 20px;
-}
-
-
-#footerContact p
-{
-	margin-top: 20px;
-	line-height: 2px;
-}
-
-.phone
-{
-	padding-top: 10px;
-	padding-bottom: 23px;
-}
-
-.footerButton
-{
-	  background-color: #1C6836;
-	  border-radius: 20px;
-	  width: 75px;
-	  height: 24px;
-	  border: none;
-	  color: white;
-	  margin-left: 50px;
-	  padding: 5px 5px 5px 5px;
-	  text-align: center;
-	  text-decoration: none;
-	  display: inline-block;
-	  font-size: 10px;
-		line-height: 24px;
-	  cursor: pointer;
+  background: #293F67;
 }
 
 #footerNews
 {
-  width:186px;
-  height: 166px;
+	grid-column: 2/3;
+  grid-row: 1/2;
   margin-top:30px;
   margin-bottom: 20px;
-}
-
-#footerNews p
-{
-	line-height: 22px;
-	padding: 13px 25px 20px 25px;
+  background: #293F67;
 }
 
 
 #footerNav
 {
-  width: 186px;
-  height: 166px;
-  margin-top:30px;
-  margin-right: 150px;
+	grid-column: 1/3;
+	grid-row: 4/5;
+	height: 100px;
   margin-bottom: 20px;
-}
-
-#footerNav ul li {
-	text-decoration: none;
-	text-align: left;
-	padding-top: 12px;
-	margin-left: 40px;
-	padding-left: 30px;
-}
-
-#footerNav ul li a:hover
-{
- color: #3FA353;
-}
-
-#social
-{
-  display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #080C08;
+  background: #293F67;
 }
 
 
 #socialMedia
 {
-  width: 500px;
-  height: 50px;
-  margin-left: 470px;
+	grid-column: 1/3;
+	grid-row: 2/3;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background: #293F67;
 }
 
-#socialMedia ul li
+#socialMedia p
 {
-	display: inline-flex;
-	padding-left: 28px;
-	padding-right: 90px;
+  line-height: 55px;
 }
 
-
-#socialMedia ul li a img
-{
-	width:43px;
-	height: 43px;
-
-}
-
-#socialMedia ul li a:hover
-{
-	color: #3FA353;
-}
-
-/* page 2 -About */
-
-#aboutHero {
-width: 1250px;
- height: 465px;
- margin-left: 60px;
- margin-right: 30px;
- margin-bottom: 20px;
- background: url(../images/about_hero.jpg) no-repeat bottom;
-}
-
-#aboutHero h2
-{
- font-size: 53px;
- line-height: 480px;
- color: #EEEBEB;
- padding-top: 10px;
- text-align: center;
-}
-
-
-#aboutWho
-{
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #2E542F;
-	height: 450px;
-}
-
-#aboutWho h2
-{
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 34px;
-  color: #EEEBEB;
-	text-align: center;
-}
-
-#aboutWho p
-{
-	margin-top: 23px;
-	font-size: 21px;
-	line-height: 25px;
-	color: #C9C9C9;
-	text-align: left;
-}
-
-
-#aboutWhoText
-{
-	width: 590px;
-  height: 370px;
-  margin-top: 60px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-}
-
-#aboutWhoImg
-{
-	margin-left: 160px;
-  margin-top: 60px;
-  margin-right: 60px;
-  margin-bottom: 50px;
-	width: 383px;
-  height: 370px;
-  background:url(../images/about_who.jpg) no-repeat bottom;
-}
-
-#partnership
-{
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #2E542F;
-	margin-top: 10px;
-	height: 392px;
-	background: url(../images/about_partnership.jpg) no-repeat bottom;
-}
-
-#partnershipText
-{
-	width: 590px;
-  height: 370px;
-  margin-top: 40px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-}
-
-#partnershipText h2
-{
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 34px;
-  color: #EEEBEB;
-	text-align: left;
-}
-
-#partnershipText p
-{
-	margin-top: 60px;
-	font-size: 21px;
-	line-height: 25px;
-	color: #F5F4F4;
-	text-align: left;
-}
-
-
-.transBack
-{
-	background-color: rgba(57, 177, 98, 0.8);
-}
-
-.buttonPartnership
-{
-border-radius: 37px;
-width: 120px;
-height: 26px;
-border: none;
-color: white;
-margin-top: 50px;
-margin-left: 210px;
-padding: 20px 20px 20px 20px;
-text-align: center;
-text-decoration: none;
-display: inline-block;
-font-size: 23px;
-cursor: pointer;
-}
-
-#aboutAwards
-{
-	padding-bottom: 40px;
-	display: flex;
-	margin-top: 10px;
-	flex-direction: row;
-  justify-content: flex-start;
-}
-
-	#AwardsText
-	{
-	  width: 1100px;
-	  height: 80px;
-	  margin-top: 42px;
-	  margin-left: 120px;
-		font-size: 25px;
-	}
-
-	#AwardsText h3
-	{
-		color: #000;
-    padding-right: 40px;
-	}
-
-	 #theAwards
-	 {
-	   margin-bottom: 10px;
-	 	display: flex;
-	 	flex-direction: row;
-	  justify-content: space-between;
-		margin-left: 30px;
-
-	 }
-
-	 #award1
-	 {
-	   width: 260px;
-	   height: 150px;
-	   margin-top:35px;
-	   margin-left: 120px;
-
-
-	 }
-
-	 #award2
-	 {
-	   width: 260px;
-	   height: 150px;
-	   margin-top:30px;
-
-
-	 }
-
-	 #award3
-	 {
-	   width: 260px;
-	   height: 150px;
-	   margin-top:30px;
-	   margin-right: 120px;
-
-
-	 }
-
-	 	 #award3 img
-		 {
-			 height: 110px;
-		 }
-
-
-		 #award1 a:hover {
-		   filter: grayscale(80%);
-		 }
-
-		 #award2 a:hover {
-		 	filter: grayscale(80%);
-		 }
-
-		 #award3 a:hover {
-		   filter: grayscale(80%);
-		 }
-
-/*page 3*/
-
-#productsHero {
-width: 1250px;
- height: 465px;
- margin: 20px 30px 20px 60px;
- background: url(../images/product_hero.jpg) no-repeat bottom;
-}
-
-#productsHero h2
-{
- font-size: 53px;
- line-height: 480px;
- color: #EEEBEB;
- padding-top: 10px;
- text-align: center;
-}
-
-#subBanner
-{
-	height: 130px;
-	background: #2E542F;
-	margin-bottom: 40px;
-}
-
-#subBanner h2
-{
-	font-size: 34px;
-	color: #EEEBEB;
-	padding: 45px;
-	text-align: center;
-
-}
-
-
-/*#beerOptions
-{
-	margin-bottom: 10px;
- display: flex;
- flex-direction: column;
- justify-content: space-between;
- margin: 90px;
- height: 996px;
- background: #ccc;
-}
- */
-
-
-
-/* #beerOptions
-{
-	margin-bottom: 10px;
- background: #ccc;
-} */
-
-
-/*
-image {
-	display: block;
-	width: 100%;
-}
-
-.columns
-{
-	display: flex;
-}
-
-.columns div
-{
+@media screen and (min-width:32em) {
+	#HomeBeerPromoText {
+	height: 47%;
 	width: 50%;
-	padding: 40px 120px 60px 120px;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-between;
+	margin-top: 90px;
+	margin-bottom: 30px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 57%;
+		width: 50%;
+		margin-left: 20px;
+		margin-bottom: 20px;
+	}
 }
 
-.columns div p
-{
-	color: #000;
-	text-align: center;
-	margin-top: 20px;
-}
-*/
-.beerOptions
-{
-	display:flex;
-	height: 899px;
-	flex-wrap: wrap;
-  flex-direction: column;
-	justify-content: space-between;
-	align-content: center;
-
-
-
-}
-
-.box
-{
-	width: 408px;
-	align-content: center;
-	padding: 15px;
-}
-.box p {
-	color: #000;
-	font-size: 16px;
-	text-align:  center;
-	padding-top: 5px;
-}
-
-
-/* page 4 - Whats New */
-
-#adHero {
-width: 1250px;
- height: 465px;
- margin: 20px 30px 20px 60px;
- background: url(../images/advertisements_hero.jpg) no-repeat bottom;
-}
-
-#adHero h2
-{
- font-size: 53px;
- line-height: 480px;
- color: #EEEBEB;
- padding-top: 10px;
- text-align: center;
-}
-
-#subBanner
-{
-	height: 130px;
-	background: #2E542F;
-	margin-bottom: 40px;
-}
-
-#subBanner h2
-{
-	font-size: 34px;
-	color: #EEEBEB;
-	padding: 45px;
-	text-align: center;
-
-}
-
- /*#vidArea
-{
-	margin-bottom: 10px;
- display: flex;
- margin-top: 20px;
- flex-direction: row;
- width:1229px;
-}
-
-#vidArea h3
-{
-	font-size: 30px;
-	flex: auto;
-margin-left: 100px;
-margin-bottom: 40px;
-padding-bottom: 50px;
-
-} */
-
-#vid
-{
-	margin-left:3px;
-	margin-bottom: 10px;
-}
-
-#theVid
-{
-	width: 1229px;
-	height: 657px;
-	margin-top: 50px;
-	margin-left: 50px;
-	margin-bottom: 10px;
-	background: url(../images/ad_vid.jpg) no-repeat bottom;
-}
-
-
-#theVid p
-{
-	color: #ccc;
-line-height: 80px;
-}
-
-
-#winGift
-{
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #212020;
-	height: 370px;
-	margin-bottom: 10px;
-}
-
-
-#winGiftText
-{
-	width: 590px;
-  height: 291px;
-  margin-top: 60px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-}
- #winGiftText h2
- {
-	 margin-top: 10px;
-   padding: 30px 60px 30px 40px;
-   font-size: 34px;
-   color: #EEEBEB;
- 	text-align: center;
- }
-
-
-#winGiftImg
-{
-	margin-left: 160px;
-  margin-top: 60px;
-  margin-right: 60px;
-  margin-bottom: 50px;
-	width: 436px;
-  height: 291px;
-  background: url(../images/win_gift.jpg) no-repeat bottom;
-}
-
-#winGiftImg h3
-{
-	color: #F5F5F5;
-	padding-top:150px;
-	line-height: 70px;
-}
-
-.vidAbout
-{
-	text-align: left;
-	color: #000;
-	padding: 18px 150px 30px 60px;
-}
-
-.border
-{
-border-style: groove;
-border: 1px solid grey;
-}
-
-/*page5 - Contact */
-
-#contactHero {
-width: 1250px;
- height: 465px;
- margin: 20px 30px 20px 60px;
- background: url(../images/contact_hero.jpg) no-repeat bottom;
-}
-
-#contactHero h2
-{
- font-size: 53px;
- line-height: 480px;
- color: #EEEBEB;
- padding-top: 10px;
- text-align: center;
-}
-
-
-#contactUs
-{
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #2E542F;
-	height: 480px;
-}
-
-#contactUs h2
-{
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 34px;
-  color: #EEEBEB;
-	text-align: center;
-}
-
-
-#contactText
-{
-	width: 590px;
-  height: 475px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-
-}
-
-#contactText p
-{
-	margin-top: 5px;
-	font-size: 21px;
-	line-height: 25px;
-	color: #C9C9C9;
-	text-align: left;
-}
-
-
-#contactImg
-{
-	margin-left: 160px;
-  margin-top: 90px;
-  margin-right: 60px;
-  margin-bottom: 50px;
-	width: 433px;
-  height: 400px;
-  background: url(../images/contact_hours.jpg) no-repeat bottom;
-}
-
-#contactImg h3
-{
-	color: #fff;
+@media screen and (min-width:45em) {
+	#HomeBeerPromoText {
+	height: 53%;
+	width: 50%;
 	margin-top: 80px;
-	line-height: 100px;
+	margin-bottom: 30px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 63%;
+		width: 50%;
+		margin-left: 20px;
+		margin-top: 65px;
+		margin-bottom: 20px;
+	}
 }
 
-#contactImg p
-{
-	line-height: 30px;
-	margin-top: 50px;
-}
-
-#contactPartner
-{
-	padding-bottom: 40px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #2E542F;
-	margin-top: 10px;
-	height: 392px;
-	margin-bottom: 10px;
-	background: url(../images/contact_partner.jpg) no-repeat bottom;
-}
-
-#contactPartner p
-{
-	text-align: center;
-
-}
-
-#contactPartnerText
-{
-	width: 590px;
-  height: 370px;
-  margin-top: 40px;
-  margin-left: 120px;
-  margin-bottom: 50px;
-}
-
-#contactPartnerText h2
-{
-  margin-top: 10px;
-  padding: 20px;
-  font-size: 34px;
-  color: #EEEBEB;
-	text-align: left;
-}
-
-#contactPartnerText p
-{
+@media screen and (min-width:55em) {
+	#HomeBeerPromoText {
+	height: 65%;
+	width: 50%;
 	margin-top: 60px;
-	font-size: 21px;
-	line-height: 25px;
-	color: #F5F4F4;
-	text-align: left;
+	margin-bottom: 20px;
+	}
+
+	#HomeBeerPromoImg {
+		height: 75%;
+		width: 50%;
+		margin-left: 20px;
+		margin-top: 45px;
+		margin-bottom: 10px;
+	}
 }
 
+@media screen and (min-width:58em) {
+
+	#mainHeader
+	{
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#logo
+	{
+		margin-top: 20px;
+		width: 261px;
+		height: 92px;
+		background: #4066AA;
+		margin-left: 20px;
+	}
+
+	#mainNav
+	{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: 20px;
+		min-width: 500px;
+		height: 92px;
+		background: #4066AA;
+	}
+
+.menu-toggle {
+	display: none;
+}
+
+	#hero
+	{
+		margin-top: 55px;
+		padding-bottom: 20px;
+
+	}
 
 
-#contactForm {
-  margin-top:35px;
-	display: flex;
-	flex-direction:column;
-	justify-content: space-between;
-	line-height: 20px;
-	color: #fff;
+	 #heroImage {
+		height: 448px;
+		margin-left: 55px;
+		margin-right: 30px;
+		flex-grow: 1;
+		background: #4066AA;
+	}
+
+	#heroImage p
+	{
+		line-height: 450px;
+	}
+
+
+	#tagline
+	{
+		margin-top: 20px;
+		padding-bottom: 20px;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#tagLineImage
+	{
+		height: 393px;
+		margin-left: 50px;
+		margin-right: 30px;
+		background: #4066AA;
+	}
+
+	#tagLineImage p
+	{
+		line-height: 200px;
+	}
+
+
+
+	#HomeBeerPromoText1
+	{
+		margin-top: 40px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #ccc;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#homeBeer1
+	{
+		margin-top: 20px;
+		width: 261px;
+		height: 92px;
+		background: #4066AA;
+		margin-left: 20px;
+	}
+
+	#HomeBeerPromoImg1
+	{
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: 20px;
+		width: 821px;
+		height: 92px;
+		background: #4066AA;
+	}
+
+
+	/* testing */
+
+	#homeBeer
+	{
+		padding-bottom: 1px;
+		max-height: 456px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		height: 457px;
+	}
+
+	#homeBeer p
+	{
+		line-height: 250px;
+	}
+
+	#HomeBeerPromoText
+	{
+		width: 572px;
+		height: 338px;
+		margin-top: 90px;
+		margin-left: 120px;
+		margin-bottom: 50px;
+		order: -1;
+		background: #293F67;
+	}
+
+	#HomeBeerPromoImg
+	{
+		margin-left: 160px;
+		margin-top: 90px;
+		margin-right: 60px;
+		margin-bottom: 50px;
+		width: 347px;
+		height: 338px;
+		background: #293F67;
+	}
+
+
+	#charity
+	{
+		margin-bottom: 10px;
+		height: 392px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		margin-top: 25px;
+	}
+
+	#charityText
+	{
+		min-width: 420px;
+		margin-top: 40px;
+		margin-left: 30%;
+		margin-right: 30%;
+		margin-bottom: 40px;
+		background: #293F67;
+	}
+
+	#charityText p
+	{
+		line-height: 250px;
+	}
+
+
+	#homeEvents
+	{
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: #4066AA;
+		margin-top: 20px;
+	}
+
+	#eventsText
+	{
+		min-width: 900px;
+		width: 87%;
+		height: 130px;
+		margin-top: 50px;
+		margin-bottom: 10px;
+		background: #293F67;
+	}
+
+	#eventsText p
+	{
+		line-height: 120px;
+	}
+
+	#theEvents
+	{
+		margin-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-bottom: 5px;
+		background: #4066AA;
+	}
+
+	#theEvents p
+	{
+		line-height: 260px;
+	}
+
+	#events1
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67;
+	}
+
+	#events2
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67
+	}
+
+	#events3
+	{
+		min-width: 250px;
+		min-height: 224px;
+		margin-top:30px;
+		margin-bottom: 50px;
+		background: #293F67
+	}
+
+	#upperFooter
+	{
+		display: grid;
+		flex-direction: row;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-rows:   0.5fr 0.5fr;
+		justify-content: space-between;
+		padding-bottom: 40px;
+		background: #4066AA;
+	}
+
+	#upperFooter p
+	{
+		line-height: 180px;
+	}
+
+
+	#footerLogo
+	{
+		grid-column: 1/2;
+		grid-row: 1/2;
+		width: 186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67;
+	}
+
+	#footerContact
+	{
+		grid-column: 2/3;
+		grid-row: 1/2;
+		width:186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+	#footerNews
+	{
+		grid-column: 3/4;
+		grid-row: 1/2;
+		width:186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+
+	#footerNav
+	{
+		grid-column: 4/5;
+		grid-row: 1/2;
+		width: 186px;
+		height: 166px;
+		margin: 0 auto;
+		margin-top:30px;
+		margin-bottom: 20px;
+		background: #293F67
+	}
+
+	#socialMedia
+	{
+		grid-column: 2/4;
+		grid-row: 2/3;
+		height: 57px;
+		margin-top: 20px;
+		background: #293F67;
+	}
+
+	#socialMedia p
+	{
+		line-height: 55px;
+	}
+
+
 
 }
 
+@media screen and (min-width:64em) {
 
-#submit {
+	#mainHeader
+	{
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+		border-bottom: solid 2px #ccc;
+	  background: #153015;
+	}
 
-  color: #FFF;
+	#logo
+	{
+	  margin-top: 20px;
+		width: 261px;
+	  height: 92px;
+	  margin-left: 20px;
+	}
 
-  background-color: #000;
+	#logo img
+	{
+		width: 175px;
+		margin-top: 15px;
+	}
 
-  border: 1px solid #000;
-}
+	#mainNav
+	{
+	  margin-top: 20px;
+	  margin-left: auto;
+	  margin-right: 20px;
+		width: 821px;
+	  height: 92px;
+	}
 
-#rightArea {
-  width: 360px;
-  margin-left: 90px;
+	#mainNav ul
+	{
+		text-transform: uppercase;
+	  margin-top: 27px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	#mainNav ul li a
+	{
+		display: block;
+	  font-size: 25px;
+	  padding: 17px;
+	  color:  #E1E1E1;
+	}
+
+	#mainNav ul li a:hover
+	{
+	  color: #3FA353;
+	}
+
+
+	#hero
+	{
+	  margin-top: 55px;
+		padding-bottom: 20px;
+
+	}
+
+
+	 #heroImage {
+	 max-width: 1250px;
+	  height: 448px;
+	  margin-left: 55px;
+	  margin-right: 30px;
+	  background: #4066AA;
+	}
+
+	#heroImage p
+	{
+	  line-height: 450px;
+	}
+
+
+	#tagline
+	{
+	  margin-top: 20px;
+		padding-bottom: 20px;
+	  border-bottom: solid 2px #ccc;
+	}
+
+	#tagLineImage
+	{
+	  max-width: 1250px;
+	  height: 393px;
+	  margin-left: 50px;
+	  margin-right: 30px;
+	  background: #4066AA;
+	}
+
+	#tagLineImage p
+	{
+	  line-height: 200px;
+	}
+
+
+
+	#HomeBeerPromoText1
+	{
+		margin-top: 40px;
+		padding-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+	  background: #ccc;
+		border-bottom: solid 2px #ccc;
+	}
+
+	#homeBeer1
+	{
+	  margin-top: 20px;
+		width: 261px;
+	  height: 92px;
+	  background: #4066AA;
+	  margin-left: 20px;
+	}
+
+	#HomeBeerPromoImg1
+	{
+	  margin-top: 20px;
+	  margin-left: auto;
+	  margin-right: 20px;
+		width: 821px;
+	  height: 92px;
+	  background: #4066AA;
+	}
+
+
+	/* testing */
+
+	#homeBeer
+	{
+		padding-bottom: 1px;
+		max-height: 456px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+	  background: #4066AA;
+		height: 457px;
+	}
+
+	#homeBeer p
+	{
+		line-height: 250px;
+	}
+
+	#HomeBeerPromoText
+	{
+		width: 572px;
+	  height: 338px;
+	  margin-top: 90px;
+	  margin-left: 120px;
+	  margin-bottom: 50px;
+		order: -1;
+	  background: #293F67;
+	}
+
+	#HomeBeerPromoImg
+	{
+		margin-left: 160px;
+	  margin-top: 90px;
+	  margin-right: 60px;
+	  margin-bottom: 50px;
+		width: 347px;
+	  height: 338px;
+	  background: #293F67;
+	}
+
+
+	#charity
+	{
+	  margin-bottom: 10px;
+		height: 392px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+	  background: #4066AA;
+	  margin-top: 25px;
+	}
+
+	#charityText
+	{
+		width: 458px;
+	  margin-top: 25px;
+	  margin-left: 35%;
+	  margin-bottom: 25px;
+	  background: #293F67;
+	}
+
+	#charityText p
+	{
+	  line-height: 290px;
+	}
+
+
+	#homeEvents
+	{
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+	  background: #4066AA;
+		margin-top: 20px;
+	}
+
+	#eventsText
+	{
+	  min-width: 967px;
+		width: 87%;
+	  height: 130px;
+	  margin-top: 50px;
+	  margin-bottom: 10px;
+	  background: #293F67;
+	}
+
+	#eventsText p
+	{
+	  line-height: 120px;
+	}
+
+	#theEvents
+	{
+	  margin-bottom: 20px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: space-between;
+		padding-bottom: 5px;
+	  background: #4066AA;
+	}
+
+	#theEvents p
+	{
+	  line-height: 260px;
+	}
+
+	#events1
+	{
+	  width: 330px;
+	  height: 254px;
+	  margin-top:30px;
+	  margin-bottom: 50px;
+	  background: #293F67;
+	}
+
+	#events2
+	{
+	  width: 330px;
+	  height: 254px;
+	  margin-top:30px;
+	  margin-bottom: 50px;
+	  background: #293F67
+	}
+
+	#events3
+	{
+	  width: 330px;
+	  height: 254px;
+	  margin-top:30px;
+	  margin-bottom: 50px;
+	  background: #293F67
+	}
+
+	#upperFooter
+	{
+		display: grid;
+		flex-direction: row;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
+	  grid-template-rows:   0.5fr 0.5fr;
+	  justify-content: space-between;
+		padding-bottom: 40px;
+	  background: #4066AA;
+	}
+
+	#upperFooter p
+	{
+	  line-height: 180px;
+	}
+
+
+	#footerLogo
+	{
+		grid-column: 1/2;
+		grid-row: 1/2;
+	  width: 186px;
+	  height: 166px;
+		margin: 0 auto;
+	  margin-top:30px;
+	  margin-bottom: 20px;
+	  background: #293F67;
+	}
+
+	#footerContact
+	{
+		grid-column: 2/3;
+		grid-row: 1/2;
+		width:186px;
+	  height: 166px;
+		margin: 0 auto;
+	  margin-top:30px;
+	  margin-bottom: 20px;
+	  background: #293F67
+	}
+
+	#footerNews
+	{
+		grid-column: 3/4;
+		grid-row: 1/2;
+	  width:186px;
+	  height: 166px;
+		margin: 0 auto;
+	  margin-top:30px;
+	  margin-bottom: 20px;
+	  background: #293F67
+	}
+
+
+	#footerNav
+	{
+		grid-column: 4/5;
+		grid-row: 1/2;
+	  width: 186px;
+	  height: 166px;
+		margin: 0 auto;
+	  margin-top:30px;
+	  margin-bottom: 20px;
+	  background: #293F67
+	}
+
+	#socialMedia
+	{
+		grid-column: 2/4;
+		grid-row: 2/3;
+	  height: 57px;
+	  margin-top: 20px;
+	  background: #293F67;
+	}
+
+	#socialMedia p
+	{
+	  line-height: 55px;
+	}
 }
