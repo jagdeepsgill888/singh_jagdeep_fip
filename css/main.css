@@ -500,6 +500,7 @@ p
 		margin-right: 20px;
 		min-width: 500px;
 		height: 92px;
+		min-width: 739px;
 		background: #4066AA;
 		display:block;
 	}
@@ -512,6 +513,9 @@ p
 		flex-direction: row;
 	}
 
+#mainNav ul li a {
+	font-size: 22px;
+}
 
 
 #menuToggle {
@@ -858,7 +862,7 @@ p
 	#mainNav ul li a
 	{
 		display: block;
-	  font-size: 25px;
+	  font-size: 24px;
 	  padding: 17px;
 	  color:  #E1E1E1;
 	}
