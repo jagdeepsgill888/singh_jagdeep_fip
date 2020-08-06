@@ -2,11 +2,14 @@
 	// "use strict";
 	console.log("fired");
 
-	let burgerCon = document.querySelector("#mainNav");
+	let menuToggle = document.querySelector("#menuToggle"),
+      burgerCon = document.querySelector("#mainNav");
 
 	function hamburgerMenu() {
-		burgerCon.classList.toggle("slideToggle");
+    burgerCon.classList.toggle("slideToggle");
+    menuToggle.classList.toggle("expanded");
+
 	}
 
-	button.addEventListener("click", hamburgerMenu);
+	menuToggle.addEventListener("click", hamburgerMenu);
 })();

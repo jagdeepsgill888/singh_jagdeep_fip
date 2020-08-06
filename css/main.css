@@ -61,16 +61,28 @@ p
 	width: 100px;
   height: 92px;
   background: #4066AA;
+	display: none;
 	/*display: none; */
+}
+
+#mainNav.slideToggle {
+	display: block;
+}
+
+#mainNav ul.slideToggle {
+	display: block;
 }
 
 #mainNav ul
 {
 	text-transform: uppercase;
   margin-top: 27px;
-	display: block;
 	flex-direction: row;
 	text-align: center;
+}
+
+#mainNav ul li a.slideToggle {
+		border-bottom:1px solid #031A13;
 }
 
 #mainNav ul li a
@@ -79,7 +91,6 @@ p
   font-size: 25px;
   padding: 17px;
   color:  #E1E1E1;
-	border-bottom:1px solid #031A13;
 	text-decoration: none;
 }
 
@@ -88,23 +99,30 @@ p
   color: #3FA353;
 }
 
-.menu-toggle {
+#menuToggle {
 	margin-left: auto;
   margin-right: 20px;
 	color: #fff;
 	float: right;
 	line-height: 120px;
 	font-size: 24px;
-	cursor: pointer;
 	display: block;
 }
 
-.menu-toggle button {
+#menuToggle button {
   background: url(../assets/burger.svg) center no-repeat;
   border: 0px;
   height: 50px;
 	width: 50px;
   transition: all 400ms ease;
+	cursor: pointer;
+}
+
+#menuToggle.expanded {
+  -webkit-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+
+  transform: rotate(90deg);
 }
 
 #hero
@@ -441,7 +459,7 @@ p
 }
 
 @media screen and (max-width: 928px){
-	#mainNav
+	#mainNav.slideToggle
 	{
 	  background: #4066AA;
 		/*display: none; */
@@ -486,7 +504,17 @@ p
 		display:block;
 	}
 
-.menu-toggle {
+	#mainNav ul
+	{
+		text-transform: uppercase;
+		margin-top: 27px;
+		display: flex;
+		flex-direction: row;
+	}
+
+
+
+#menuToggle {
 	display: none;
 }
 
