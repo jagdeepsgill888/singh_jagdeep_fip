@@ -132,7 +132,6 @@ p
 
 }
 
-
  #heroImage {
   height: 448px;
 	height: 780px;
@@ -156,47 +155,17 @@ p
 
 #tagLineImage
 {
-  height: 393px;
+  min-height: 350px;
+	margin-left: 20px;
+  margin-right: 20px;
   background: #4066AA;
+	background: url(../images/home_mobile_banner3.jpg) no-repeat bottom;
 }
 
 #tagLineImage p
 {
-  line-height: 200px;
+line-height: 150px;
 }
-
-
-
-#HomeBeerPromoText1
-{
-	margin-top: 40px;
-	padding-bottom: 20px;
-	display: flex;
-	flex-direction: row;
-  justify-content: flex-start;
-  background: #ccc;
-	border-bottom: solid 2px #ccc;
-}
-
-#homeBeer1
-{
-  margin-top: 20px;
-	width: 261px;
-  height: 92px;
-  background: #4066AA;
-  margin-left: 20px;
-}
-
-#HomeBeerPromoImg1
-{
-  margin-top: 20px;
-  margin-left: auto;
-  margin-right: 20px;
-	width: 821px;
-  height: 92px;
-  background: #4066AA;
-}
-
 
 /* testing */
 
@@ -206,25 +175,40 @@ p
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #4066AA;
+  background: #2E542F;
 	height: 273.25px;
+	background: url(../images/home_product_mobile_promo4_bckgrd2.jpg) no-repeat bottom;
+}
+
+#homeBeer h2
+{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 14px;
+  color: #EEEBEB;
+	line-height: 30px;
 }
 
 #homeBeer p
 {
-
+line-height: 50px;
 }
 
 #HomeBeerPromoText
 {
-	width: 42%;
+	width: 58%;
   height: 34%;
   margin-top: 105px;
-  margin-left: 10px;
 	margin-right: 10px;
   margin-bottom: 50px;
-  background: #293F67;
 
+}
+
+#homeBeerBottle {
+	background: url(../images/home_promo_mobile_only_bottles1.png) no-repeat bottom;
+	min-height: 144px;
+	min-width: 201px;
+	margin: 0 auto;
 }
 
 #HomeBeerPromoImg
@@ -415,9 +399,13 @@ p
 	 background: url(../images/hero_mobile_big2.jpg) no-repeat bottom;
 	}
 
+	#tagLineImage {
+		background: url(../images/home_mobile_banner3.3.jpg) no-repeat bottom;
+	}
+
 }
 
-@media screen and (min-width:32em) {
+/*@media screen and (min-width:32em) {
 	#HomeBeerPromoText {
 	height: 47%;
 	width: 50%;
@@ -431,10 +419,15 @@ p
 		margin-left: 20px;
 		margin-bottom: 20px;
 	}
-}
+
+	#homeBeer
+	{
+
+	}
+} */
 
 @media screen and (min-width:45em) {
-	#HomeBeerPromoText {
+	/*#HomeBeerPromoText {
 	height: 53%;
 	width: 50%;
 	margin-top: 80px;
@@ -447,16 +440,34 @@ p
 		margin-left: 20px;
 		margin-top: 65px;
 		margin-bottom: 20px;
+	} */
+}
+
+@media screen and (min-width:47em) {
+	#tagLineImage {
+		background: url(../images/home_mobile_banner3.4.jpg) no-repeat bottom;
 	}
+
+	#homeBeer {
+		background: url(../images/home_product_mobile_promo4_bckgrd_big.jpg) no-repeat bottom;
+	}
+
+	#homeBeerBottle {
+		background: url(../images/home_promo_mobile_only_bottles2_big.png) no-repeat bottom;
+		min-height: 188px;
+		min-width: 259px;
+
+	}
+
 }
 
 @media screen and (min-width:55em) {
-	#HomeBeerPromoText {
+	/*#HomeBeerPromoText {
 	height: 65%;
 	width: 50%;
 	margin-top: 60px;
 	margin-bottom: 20px;
-	}
+	} */
 
 	#HomeBeerPromoImg {
 		height: 75%;
@@ -478,12 +489,14 @@ p
 		background: #07231B;
 		top: 120px;
 		transition: 0.5s;
-
-
 	}
 
 	/*#heroImage {
 	 background: url(../images/hero_mobile_big2.jpg) no-repeat bottom;
+	} */
+
+	/*#tagLineImage {
+		background: url(../images/home_banner_3.jpg) no-repeat bottom;
 	} */
 }
 
@@ -547,7 +560,7 @@ p
 	 #heroImage {
 		height: 448px;
 		margin-left: 55px;
-		margin-right: 30px;
+		margin-right: 50px;
 		flex-grow: 1;
 		background: url(../images/hero.jpg) no-repeat bottom;
 		}
@@ -568,11 +581,15 @@ p
 
 	#tagLineImage
 	{
+		max-width: 1250px;
 		height: 393px;
 		margin-left: 50px;
-		margin-right: 30px;
-		background: #4066AA;
+		margin-right: 50px;
+		background: url(../images/home_banner_2.jpg) no-repeat bottom;
+
+
 	}
+
 
 	#tagLineImage p
 	{
@@ -900,7 +917,7 @@ p
 	 max-width: 1250px;
 	  height: 448px;
 	  margin-left: 55px;
-	  margin-right: 30px;
+	  margin-right: 50px;
 	  background: url(../images/hero.jpg) no-repeat bottom;
 	}
 
@@ -922,8 +939,10 @@ p
 	  max-width: 1250px;
 	  height: 393px;
 	  margin-left: 50px;
-	  margin-right: 30px;
-	  background: #4066AA;
+	  margin-right: 50px;
+		background: url(../images/home_banner_2.jpg) no-repeat bottom;
+
+
 	}
 
 	#tagLineImage p
