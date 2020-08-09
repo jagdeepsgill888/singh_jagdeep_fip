@@ -1447,6 +1447,207 @@ line-height: 50px;
 }
 /*end of page 2*/
 
+/* page 3 */
+
+#productsHero {
+ height: 448px;
+ height: 780px;
+ margin-left: 20px;
+ margin-right: 20px;
+ background: url(../images/product_hero_mobile_new.jpg) no-repeat bottom;
+}
+
+#productsHero h2
+{
+ font-size: 40px;
+ text-align: center;
+ padding-top: 230px;
+ color: #fff;
+}
+
+
+#subBanner
+{
+	min-height: 175px;
+	background: #2E542F;
+	margin-bottom: 40px;
+}
+
+#subBanner h2
+{
+	font-size: 34px;
+	color: #EEEBEB;
+	padding: 45px;
+	text-align: center;
+
+}
+
+
+.beerOptions
+{
+	display:flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+}
+
+.box
+{
+	width: 500px;
+	align-content: center;
+	padding: 100px;
+	background-color: #fff;
+}
+.box p {
+	color: #000;
+	font-size: 16px;
+	text-align:  center;
+	padding-top: 5px;
+}
+
+#product1 {
+	/*background: url(../images/product_green2.jpg) no-repeat bottom; */
+}
+
+#product2 {
+/*	background: url(../images/product_black2.jpg) no-repeat bottom; */
+}
+
+#product3 {
+/*	background: url(../images/product_red3.jpg) no-repeat bottom; */
+}
+
+#product4 {
+	/*background: url(../images/product_blue1.jpg) no-repeat bottom; */
+}
+
+
+
+#suggestionHow
+{
+	margin-bottom: 10px;
+	min-height: 282px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 25px;
+	background: url(../images/contact_partner_mobile2.jpg) center no-repeat;
+}
+
+#suggestionText
+{
+	min-width: 292px;
+	margin-top: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 25px;
+	flex-grow: 1;
+}
+
+#suggestionText h3
+{
+	font-weight: bolder;
+	color: #08B826;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#contactPartnerText p {
+	padding-top: 50px;
+	font-size: 13px;
+	color: #E8FFF0;
+	line-height: 30px;
+}
+
+
+@media screen and (min-width:26em) {
+
+	#productsHero {
+	 background: url(../images/product_hero_mobile_new_big.jpg) no-repeat bottom;
+	}
+}
+
+@media screen and (min-width:58em) {
+
+	#productsHero {
+	 background: url(../images/product_hero_desktop1.jpg) no-repeat bottom;
+	 max-width: 1250px;
+	  max-height: 465px;
+
+
+	}
+
+
+#productsHero h2
+{
+ font-size: 53px;
+ line-height: 480px;
+ color: #EEEBEB;
+ padding-top: 10px;
+ text-align: center;
+}
+
+#subBanner
+{
+	height: 130px;
+	background: #2E542F;
+	margin-bottom: 40px;
+}
+
+#subBanner h2
+{
+	font-size: 34px;
+	color: #EEEBEB;
+	padding: 45px;
+	text-align: center;
+
+}
+.beerOptions
+{
+	display:flex;
+	flex-wrap: wrap;
+  flex-direction: column;
+	justify-content: space-between;
+	align-content: center;
+
+
+
+}
+
+.box
+{
+	width: 500px;
+	align-content: center;
+	padding: 100px;
+}
+.box p {
+	color: #000;
+	font-size: 16px;
+	text-align:  center;
+	padding-top: 5px;
+}
+
+#product1 {
+	background: url(../images/product_green2.jpg) no-repeat bottom;
+}
+
+#product2 {
+	background: url(../images/product_black2.jpg) no-repeat bottom;
+}
+
+#product3 {
+	background: url(../images/product_red3.jpg) no-repeat bottom;
+}
+
+#product4 {
+	background: url(../images/product_blue1.jpg) no-repeat bottom;
+}
+
+
+}
+
+
 /* page 5 start */
 
 #heroAbout
