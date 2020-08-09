@@ -1128,6 +1128,10 @@ line-height: 50px;
 	margin-top: 10px;
 	}
 
+	#slider li {
+		cursor:pointer;
+	}
+
 
 
 	.iconContainer {
