@@ -1,17 +1,22 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Old Spice</title>
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project 3</title>
 	<link href="css/reset.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap" rel="stylesheet">
 	<link href="css/main.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 	<!-- this is where the content goes -->
 	<div id="siteContainer">
-		<h1 class="hidden">Old Spice Beers</h1>
-	 <header id="mainHeader">
-		<div id="logo"><img src="assets/fip_logo_old_spice_2.svg" alt="Old Spice Logo"></div>
+		<h1 class="hidden">FIP Scaffold</h1>
+   <header id="mainHeader">
+		<div id="logo"><img src="assets/fip_logo_old_spice5_mobile.svg" alt="Old Spice Logo"></div>
+
+    <div id="menuToggle"><button></button></div>
 		<nav id="mainNav"><h2 class="hidden">Main Navigation</h2>
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -20,65 +25,61 @@
 					<li><a href="advertisements.html">Advertisements</a></li>
 					<li><a href="contact.html">Contact</a></li>
 			</ul></nav>
+
 	 </header>
 
 	 <div id="hero">
 		 <section id="heroImage">
-			 <h2>Great Minds Drink Alike</h2></section>
+			 <h2 class="hidden">Hero Image</h2><p>Hero Image</p></section>
 	 </div>
 
 	 <div id="tagline">
-		<section id="tagLineImage">
-			<h2 class="hidden">Tagline Image</h2><p>Old Spice Beers</p>
-		<p>A unique type of beer that makes you smell fresh and captivating
-</p></section>
+	 	<section id="tagLineImage">
+			<h2 class="hidden">Tagline Image</h2><h3>Old Spice Beers</h3>
+		<h4>A unique type of beer that makes you smell fresh and captivating
+</h4></section>
 	 </div>
 
 
 	 <section id="homeBeer">
 		 <h2 class="hidden">Beer Content</h2>
-		 <section id="HomeBeerPromoText"><h2>You are only a drink
-     away from smelling great</h2>
-		 <a href="#" class="button">View now</a></section>
-
-		 <section id="HomeBeerPromoImg"><p>Beer Image</p></section>
+		 <div id="HomeBeerPromoText"><h2>You are only a drink away from smelling great</h2>
+		 <a href="#" id="viewMoreBtn" class="button2">View now</a></div>
+		 <div id="homeBeerBottle"></div>
 	 </section>
 
 	 <section id="charity">
-		 <section id="charityText">
-		 <h2>Support The Community</h2>
-		 <p>Old Spice Beer supports local sport teams and in
-      providing resource in order to foster young
-      talents. With the help of our costumers ,we can
-       help small teams grow.</p>
-			 <a href="#" class="button2">Learn More</a>
-		 </section>
+		 <h2 class="hidden">Charity Content</h2>
+		 <div id="charityText"><h3>Support The Community</h3>
+			 <p>Old Spice Beer supports local sport teams and in
+        providing resource in order to foster young
+        talents. With the help of our costumers ,we can
+         help small teams grow.</p>
+				 <a href="#" id="learnMoreBtn" class="button2">Learn More</a></div>
 	 </section>
 
 	 <div id="homeEvents">
-		<section id="eventsText">
-			<h3>Upcoming Events</h3>
+	 	<section id="eventsText">
+			<h2 class="hidden">Events Content</h2><h3>Upcoming Events</h3>
 			<p class="subheading">Summer, 2020</p>
-			<p><span class="lowerSub">Virtual Events</span></p>
-		</section>
+			<p><span class="lowerSub">Virtual Events</span></p></section>
 	 </div>
 
 		<div id="theEvents">
-		<section id="events1">
+		<section id="events1" class="events"><h3 class="hidden">Event 1</h3>
 			<p>LiveStream Music X</p>
 		  <p>When : 14 June, 4pm</p>
-	    <p>Venue : Online</p>
-    </section>
+	    <p>Venue : Online</p></section>
 
-    <section id="events2"><h3 class="hidden">Event 2</h3>
-			<p>Road To Ultra</p>
-		  <p>When : 20 July, 12pm</p>
-		  <p>Venue : Online</p></section>
+		<section id="events2" class="events"><h3 class="hidden">Event 2</h3>
+		<p>Road To Ultra</p>
+		<p>When : 20 July, 12pm</p>
+		<p>Venue : Online</p></section>
 
-		<section id="events3"><h3 class="hidden">Event 3</h3>
-			<p>SÓNAR</p>
-			<p>When : 8 August, 6pm</p>
-		  <p>Venue : Online</p></section>
+		<section id="events3" class="events"><h3 class="hidden">Event 3</h3>
+		<p>SÓNAR</p>
+		<p>When : 8 August, 6pm</p>
+		<p>Venue : Online</p></section>
 
 	</div>  <!-- end of manin contents -->
 
@@ -87,61 +88,60 @@
 			<h2 class="hidden">Footer</h2>
 
 		<section id="footerLogo">
-			<h3 class="hidden"></h3>
-			<img src="assets/fip_logo_old_spice4.svg" alt="Old Spice Logo">
-			<p>©2020 Old Spice. All Rights Reserved</p></section>
+			<h3 class="hidden">Footer Logo</h3>
+			<img src="assets/fip_logo_old_spice5_mobile.svg" alt="Old Spice Logo">
+		<p>©2020 Old Spice. All Rights Reserved</p></section>
 
 		<section id="footerContact">
+			<h3 class="hidden">Footer Contact</h3>
 			<h4>Contact</h4>
 		  <p>852 Spice Building</p>
 		  <p>Yeet Road, ON</p>
 			<p class="phone">123-456-789</p>
-			<a href="contact.html" class="footerButton">Contact Us</a></section>
-
-
+			<a href="contact.html" id="contactButton" class="footerButton">Contact Us</a></section>
 
 		<section id="footerNews">
+			<h3 class="hidden">Newsletter</h3>
 			<h4>Newsletter</h4>
-			<p>Join our Newsletter list
-        for deals, promotions,
-        event and much more!</p>
-			<a href="#" class="footerButton">Join Now</a></section>
+			<p>Join our Newsletter list<p>
+        <p>for deals, promotions,</p>
+        <p>event and much more!</p>
+				<a href="#" id="joinNow" class="footerButton">Join Now</a>
+			</section>
 
 		<section id="footerNav">
-			<h4>links</h4>
+			<h3 class="hidden">Footer Nav</h3><h4>links</h4>
 			<ul>
 				<li><a href="index.html">Home</a></li>
 				 <li><a href="about.html">About</a></li>
 				 <li><a href="products.html">Products</a></li>
 				 <li><a href="advertisements.html">Advertisements</a></li>
 				 <li><a href="contact.html">Contact</a></li>
-			</ul>
-			</section>
-		</div>
-
-		<div id="social">
-		<section id="socialMedia">
-			<h4 class="hidden">Social Media</h4>
-			<ul>
-				<li><a href="http://www.twitter.com">
-            <img id="twitter" src="assets/twitter_icon.svg" alt="Twitter icon">
-              </a></li>
-
-				<li><a href="http://www.youtube.com">
-			        <img src="assets/youtube_icon.svg" alt="Youtube icon">
-			         </a></li>
-
-				<li><a href="http://www.instagram.com">
-			 			   <img src="assets/insta_icon.svg" alt="Instagram icon">
-			 			    </a></li>
-
 			</ul></section>
-	 </div>
+
+			<section id="socialMedia">
+  			<h3 class="hidden">Social Media</h3><h4 class="hidden">Social Media</h4>
+				<ul>
+					<li><a href="http://www.twitter.com">
+	            <img id="twitter" src="assets/twitter_icon.svg" alt="Twitter icon">
+	              </a></li>
+
+					<li><a href="http://www.youtube.com">
+				        <img src="assets/youtube_icon.svg" alt="Youtube icon">
+				         </a></li>
+
+					<li><a href="http://www.instagram.com">
+				 			   <img src="assets/insta_icon.svg" alt="Instagram icon">
+				 			    </a></li>
+
+				</ul></section>
+
+    </div>
 
 	</footer>
 
 
-	</div>
+  </div>
 	<script src="js/main.js"></script>
 
 </body>
