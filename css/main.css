@@ -1330,6 +1330,8 @@ line-height: 50px;
 
 
 
+
+
 @media screen and (min-width:26em) {
 
 	#heroImageAbout {
@@ -1442,4 +1444,335 @@ line-height: 50px;
 	font-size: 50px;
 	margin-bottom: 15px;
 }
+}
+/*end of page 2*/
+
+/* page 5 start */
+
+#heroAbout
+{
+  margin-top: 55px;
+	padding-bottom: 20px;
+
+}
+
+ #contactHeroImage {
+  height: 448px;
+	height: 780px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(../images/contact_hero_new_mobile.jpg) no-repeat bottom;
+}
+
+#contactHeroImage h2
+{
+  font-size: 40px;
+	text-align: center;
+	padding-top: 230px;
+	color: #fff;
+}
+
+
+#contactUs
+{
+ padding-bottom: 40px;
+ display: flex;
+ flex-direction:column;
+	justify-content: flex-start;
+	background: #2E542F;
+
+}
+
+#contactUs h2
+{
+	margin-top: 10px;
+	padding: 20px;
+	font-size: 34px;
+	color: #EEEBEB;
+ text-align: center;
+}
+
+
+#contactText
+{
+ width: 590px;
+	height: 475px;
+	margin: auto;
+	margin-bottom: 50px;
+
+}
+
+#contactText p
+{
+ margin-top: 5px;
+ font-size: 21px;
+ margin-bottom: 50px;
+ line-height: 25px;
+ color: #C9C9C9;
+ text-align: left;
+}
+
+
+#contactImg
+{
+margin: auto;
+padding-top: 70px;
+ width: 433px;
+	height: 400px;
+	background: url(../images/contact_hours.jpg) no-repeat bottom;
+}
+
+#contactImg h3
+{
+ color: #fff;
+ margin-top: 80px;
+ line-height: 100px;
+ text-align: center;
+}
+
+#contactImg p
+{
+ line-height: 30px;
+ margin-top: 50px;
+}
+
+
+#contactForm {
+	margin-top:35px;
+ display: flex;
+ flex-direction:column;
+ margin: auto;
+ justify-content: space-between;
+ line-height: 20px;
+ color: #fff;
+}
+
+
+
+
+
+#contactPartner
+{
+	margin-bottom: 10px;
+	min-height: 282px;
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	margin-top: 25px;
+	background: url(../images/contact_partner_mobile2.jpg) center no-repeat;
+}
+
+#contactPartnerText
+{
+	min-width: 292px;
+	margin-top: 25px;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 25px;
+	flex-grow: 1;
+}
+
+#contactPartnerText h3
+{
+	font-weight: bolder;
+	color: #08B826;
+	padding-top: 20px;
+	text-align: center;
+}
+
+#contactPartnerText p {
+	padding-top: 50px;
+	font-size: 13px;
+	color: #E8FFF0;
+	line-height: 30px;
+}
+
+@media screen and (min-width:26em) {
+
+	#contactHeroImage {
+	 background: url(../images/contact_hero_new_mobile_big.jpg) no-repeat bottom;
+	}
+
+}
+
+@media screen and (min-width:39em) {
+	#contactPartner
+	{
+
+		background: url(../images/contact_partner_mobile2_big.jpg) center no-repeat;
+	}
+
+  #contactPartnerText p { font-size: 16px;}
+}
+
+@media screen and (min-width:58em) {
+	#contactHeroImage {
+	 height: 448px;
+	 margin-left: 55px;
+	 margin-right: 50px;
+	 flex-grow: 1;
+	 background: url(../images/contact_hero_new_desktop.jpg) no-repeat bottom;
+	 }
+
+
+	 #contactHero {
+	 width: 1250px;
+	  height: 465px;
+	  margin: 20px 30px 20px 60px;
+	  background: url(../images/contact_hero.jpg) no-repeat bottom;
+	 }
+
+	 #contactHero h2
+	 {
+	  font-size: 53px;
+	  line-height: 480px;
+	  color: #EEEBEB;
+	  padding-top: 10px;
+	  text-align: center;
+	 }
+
+
+	 #contactUs
+	 {
+	 	padding-bottom: 60px;
+	 	display: flex;
+	 	flex-direction: row;
+	   justify-content: flex-start;
+	   background: #2E542F;
+	 	height: 600px;
+	 }
+
+	 #contactUs h2
+	 {
+	   margin-top: 10px;
+	   padding: 20px;
+	   font-size: 34px;
+	   color: #EEEBEB;
+	 	text-align: center;
+	 }
+
+
+	 #contactText
+	 {
+	 	width: 590px;
+	   height: 475px;
+	   margin-left: 120px;
+	   margin-bottom: 50px;
+
+	 }
+
+	 #contactText p
+	 {
+	 	margin-top: 5px;
+	 	font-size: 21px;
+	 	line-height: 25px;
+	 	color: #C9C9C9;
+	 	text-align: left;
+	 }
+
+
+	 #contactImg
+	 {
+	 	margin-left: 160px;
+	   margin-top: 90px;
+	   margin-right: 60px;
+	   margin-bottom: 50px;
+	 	width: 433px;
+	   height: 400px;
+	   background: url(../images/contact_hours.jpg) no-repeat bottom;
+	 }
+
+	 #contactImg h3
+	 {
+	 	color: #fff;
+	 	margin-top: 80px;
+	 	line-height: 100px;
+		text-align: center;
+	 }
+
+	 #contactImg p
+	 {
+	 	line-height: 30px;
+	 	margin-top: 50px;
+	 }
+
+	 #contactPartner
+	 {
+	 	padding-bottom: 40px;
+	 	display: flex;
+	 	flex-direction: row;
+	   justify-content: flex-start;
+	   background: #2E542F;
+	 	margin-top: 10px;
+	 	height: 392px;
+	 	margin-bottom: 10px;
+	 	background: url(../images/contact_partner.jpg) no-repeat bottom;
+	 }
+
+	 #contactPartner p
+	 {
+	 	text-align: center;
+
+	 }
+
+	 #contactPartnerText
+	 {
+	 	width: 590px;
+	   height: 370px;
+	   margin-top: 40px;
+	   margin-left: 120px;
+	   margin-bottom: 50px;
+	 }
+
+	 #contactPartnerText h2
+	 {
+	   margin-top: 10px;
+	   padding: 20px;
+	   font-size: 34px;
+	   color: #EEEBEB;
+	 	text-align: left;
+	 }
+
+	 #contactPartnerText p
+	 {
+	 	margin-top: 70px;
+	 	font-size: 21px;
+	 	line-height: 30px;
+	 	color: #F5F4F4;
+	 	text-align: left;
+	 }
+
+
+
+	 #contactForm {
+	   margin-top:35px;
+	 	display: flex;
+	 	flex-direction:column;
+	 	justify-content: space-between;
+	 	line-height: 20px;
+	 	color: #fff;
+
+	 }
+
+
+	 #submit {
+
+	   color: #FFF;
+
+	   background-color: #000;
+
+	   border: 1px solid #000;
+	 }
+
+	 #rightArea {
+	   width: 360px;
+	   margin-left: 90px;
+	 }
+
+ }
+
+@media screen and (min-width:64em) {
+	#contactPartnerText  {
+		font-size: 24px;
+	}
 }
