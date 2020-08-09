@@ -65,7 +65,6 @@ p
   margin-right: 20px;
 	width: 100px;
   height: 92px;
-  background: #4066AA;
 	display: none;
 	/*display: none; */
 }
@@ -167,7 +166,6 @@ p
   min-height: 350px;
 	margin-left: 20px;
   margin-right: 20px;
-  background: #4066AA;
 	background: url(../images/home_mobile_banner3.jpg) no-repeat bottom;
 }
 
@@ -244,7 +242,6 @@ line-height: 50px;
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #4066AA;
   margin-top: 25px;
 	background: url(../images/community_mobile_size2.2.jpg) center no-repeat;
 }
@@ -758,7 +755,6 @@ line-height: 50px;
 @media screen and (max-width: 928px){
 	#mainNav.slideToggle
 	{
-	  background: #4066AA;
 		/*display: none; */
 		position: absolute;
 		width: 100%;
@@ -793,10 +789,9 @@ line-height: 50px;
 
 	#logo
 	{
-		margin-top: 20px;
+		margin-top: 50px;
 		width: 261px;
 		height: 92px;
-		background: #4066AA;
 		margin-left: 20px;
 	}
 
@@ -808,7 +803,6 @@ line-height: 50px;
 		min-width: 500px;
 		height: 92px;
 		min-width: 739px;
-		background: #4066AA;
 		display:block;
 	}
 
@@ -884,7 +878,6 @@ line-height: 50px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		background: #4066AA;
 		height: 415px;
 		background: url(../images/home_product_mobile_promo4_bckgrd2_desktop.jpg) no-repeat bottom;
 	}
