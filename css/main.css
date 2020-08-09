@@ -1707,6 +1707,238 @@ line-height: 50px;
 }
 
 
+	/* page 4 AD*/
+
+	video {
+		height: 300px;
+	}
+	#heroAd
+	{
+	  margin-top: 55px;
+		padding-bottom: 20px;
+
+	}
+
+	#adHeroImage {
+   height: 448px;
+ 	height: 780px;
+   margin-left: 20px;
+   margin-right: 20px;
+   background: url(../images/advertisements_hero_mobilenew_1.jpg) no-repeat bottom;
+ }
+
+ #adHeroImage h2
+ {
+   font-size: 40px;
+ 	text-align: center;
+ 	padding-top: 230px;
+ 	color: #fff;
+ }
+
+ #adHeroImage {
+  height: 448px;
+  margin-left: 55px;
+  margin-right: 50px;
+  flex-grow: 1;
+  background: url(../images/advertisements_hero.jpg) no-repeat bottom;
+  }
+
+  #adHeroImage h2 {
+ 	 padding-top:180px;
+  }
+
+
+  #winGift
+  {
+ 	padding-bottom: 40px;
+ 	display: flex;
+ 	flex-direction: column;
+ 	 justify-content: flex-start;
+ 	 background: #212020;
+ 	margin-bottom: 10px;
+  }
+
+
+  #winGiftText
+  {
+ 	 margin-top: 60px;
+ 	 margin-left: 60px;
+ 	 margin-bottom: 50px;
+	 order: 1;
+  }
+ 	#winGiftText h2
+ 	{
+    padding: 20px;
+ 		font-size: 25px;
+ 		color: #EEEBEB;
+ 		text-align: center;
+		margin: auto ;
+ 	}
+
+
+  #winGiftImg
+  {
+   margin: auto ;
+ 	 background: url(../images/win_gift_mobile.jpg) no-repeat bottom;
+	 order: -1;
+  }
+
+  #winGiftImg h3
+  {
+ 	color: #F5F5F5;
+ 	padding-top:150px;
+ 	line-height: 70px;
+	font-size: 20px;
+  }
+
+
+
+
+ @media screen and (min-width:26em) {
+
+ 	#adHeroImage {
+ 	 background: url(../images/advertisements_hero_mobilenew_2_big.jpg) no-repeat bottom;
+ 	}
+}
+
+ @media screen and (min-width:26em) {
+}
+@media screen and (min-wdth: 690px){
+	#winGiftImg
+  {
+
+ 	 background: url(../images/advertisements_hero.jpg) no-repeat bottom;
+  }
+}
+
+@media screen and (min-width:58em) {
+
+	#adHeroImage {
+	 height: 448px;
+	 margin-left: 55px;
+	 margin-right: 50px;
+	 flex-grow: 1;
+	 background: url(../images/advertisements_hero.jpg) no-repeat bottom;
+	 }
+
+	 #adHeroImage h2 {
+		 padding-top:180px;
+	 }
+
+
+	 #winGift
+	 {
+	 	padding-bottom: 40px;
+	 	display: flex;
+	 	flex-direction: row;
+	   justify-content: flex-start;
+	   background: #212020;
+	 	height: 370px;
+	 	margin-bottom: 10px;
+	 }
+
+
+	 #winGiftText
+	 {
+	 	width: 590px;
+	   height: 291px;
+	   margin-top: 60px;
+	   margin-left: 120px;
+	   margin-bottom: 50px;
+	 }
+	  #winGiftText h2
+	  {
+	 	 margin-top: 10px;
+	    padding: 30px 60px 30px 40px;
+	    font-size: 34px;
+	    color: #EEEBEB;
+	  	text-align: center;
+	  }
+
+
+	 #winGiftImg
+	 {
+	 	margin-left: 160px;
+	   margin-top: 60px;
+	   margin-right: 60px;
+	   margin-bottom: 50px;
+	 	width: 436px;
+	   height: 291px;
+	   background: url(../images/win_gift.jpg) no-repeat bottom;
+	 }
+
+	 #winGiftImg h3
+	 {
+	 	color: #F5F5F5;
+	 	padding-top:150px;
+	 	line-height: 70px;
+	 }
+
+
+	 #subBanner
+	 {
+	 	height: 130px;
+	 	background: #2E542F;
+	 	margin-bottom: 40px;
+	 }
+
+	 #subBanner h2
+	 {
+	 	font-size: 34px;
+	 	color: #EEEBEB;
+	 	padding: 45px;
+	 	text-align: center;
+
+	 }
+
+	  /*#vidArea
+	 {
+	 	margin-bottom: 10px;
+	  display: flex;
+	  margin-top: 20px;
+	  flex-direction: row;
+	  width:1229px;
+	 }
+
+	 #vidArea h3
+	 {
+	 	font-size: 30px;
+	 	flex: auto;
+	 margin-left: 100px;
+	 margin-bottom: 40px;
+	 padding-bottom: 50px;
+
+	 } */
+
+	 #vid
+	 {
+	 	margin-left:3px;
+	 	margin-bottom: 10px;
+	 }
+
+	 #theVid
+	 {
+	 	width: 1229px;
+	 	height: 657px;
+	 	margin-top: 50px;
+	 	margin-left: 50px;
+	 	margin-bottom: 10px;
+	 }
+
+
+	 #theVid p
+	 {
+	 	color: #ccc;
+	 line-height: 80px;
+	 }
+
+}
+
+
+
+
+
+
 /* page 5 start */
 
 #heroAbout
