@@ -1,11 +1,16 @@
 
+p, h1, h2, h3, h4, a { font-family: 'Noto Sans', sans-serif;}
 
 
+a
+{
+	text-decoration: none;
+}
 
 
-
-
-
+h3 {
+	font-size: 34px;
+}
 
 
 p
@@ -150,8 +155,12 @@ p
 {
   margin-top: 20px;
 	padding-bottom: 20px;
-  border-bottom: solid 2px #ccc;
+	text-align: center;
 }
+
+#tagline h3 {font-weight: bolder;}
+#tagline h4 {  font-size: 25px; margin-top:50%; color: #FEFEFE}
+
 
 #tagLineImage
 {
@@ -166,8 +175,6 @@ p
 {
 line-height: 150px;
 }
-
-/* testing */
 
 #homeBeer
 {
@@ -198,10 +205,14 @@ line-height: 50px;
 {
 	width: 58%;
   height: 34%;
-  margin-top: 105px;
+  margin-top: 80px;
+	margin-left: 10px;
 	margin-right: 10px;
   margin-bottom: 50px;
+}
 
+#HomeBeerPromoText h2 {
+	font-size: 16px;
 }
 
 #homeBeerBottle {
@@ -222,6 +233,9 @@ line-height: 50px;
   background: #293F67;
 }
 
+#homeBeer a { display:none;}
+#charity a { display:none;}
+
 
 #charity
 {
@@ -232,6 +246,7 @@ line-height: 50px;
   justify-content: flex-start;
   background: #4066AA;
   margin-top: 25px;
+	background: url(../images/community_mobile_size2.2.jpg) center no-repeat;
 }
 
 #charityText
@@ -242,14 +257,55 @@ line-height: 50px;
 	margin-right: 10%;
   margin-bottom: 25px;
 	flex-grow: 1;
-  background: #293F67;
 }
 
-#charityText p
+#charityText h3
 {
-  line-height: 290px;
+	font-weight: bolder;
+  color: #22C71C;
+	text-align: center;
 }
 
+#charityText p {
+	margin-top: 35px;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.button2 {
+  background-color: #4CAF50; /* Green */
+  border-radius: 37px;
+  width: 78px;
+  height: 5px;
+  border: none;
+  color: white;
+  margin-top: 4%;
+  margin-left:39%;
+	margin-right: 39%;
+  padding: 20px 20px 20px 20px;
+	line-height: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+.button:active
+{
+  position: relative;
+  top: 2px;
+}
+
+.button2:active
+{
+  position: relative;
+  top: 2px;
+}
+
+#viewMoreBtn:hover {  background: #CBC0C0; color: #444040; }
+
+#learnMoreBtn:hover {  background: #CBC0C0; color: #444040; }
 
 #homeEvents
 {
@@ -257,22 +313,51 @@ line-height: 50px;
 	display: flex;
 	flex-direction: row;
   justify-content: flex-start;
-  background: #4066AA;
+  background: #212020;
 	margin-top: 20px;
 }
 
 #eventsText
 {
-  min-width: 230px;
+  min-width: 80%;
   min-height: 110px;
-  margin: 25px auto auto auto;
-  background: #293F67;
+  margin: 25px auto;
 }
 
-#eventsText p
+#eventsText h3
+{
+	color: #F3F3F3;
+	text-align: center;
+	margin-bottom: 12px;
+}
+
+/*#eventsText p
 {
   line-height: 120px;
+} */
+
+#eventsText	p
+{
+	text-align: left;
+	line-height: 50px;
+	margin-top: 0;
 }
+
+
+.subheading
+{
+	font-size: 20px;
+	color: #4BAF48;
+	text-align: left;
+}
+
+.lowerSub
+{
+	color: #367D34;
+	font-size: 17px;
+}
+
+
 
 #theEvents
 {
@@ -282,13 +367,14 @@ line-height: 50px;
 	flex-direction: column;
   justify-content: space-between;
 	padding-bottom: 5px;
-  background: #4066AA;
+  background: #212020;
 	flex-wrap: nowrap;
 }
 
 #theEvents p
 {
-  line-height: 260px;
+  line-height: 80px;
+	font-size: 21px;
 }
 
 /*#event1
@@ -307,7 +393,7 @@ line-height: 50px;
 	 margin: 30px;
   margin-bottom: 50px;
 	flex-grow: 1;
-  background: #293F67
+  background: #505050;
 }
 
 /*#event3
@@ -327,16 +413,21 @@ line-height: 50px;
 	grid-template-columns: 1fr 1fr;
   grid-template-rows:  1fr 0.5fr 0.5fr 0.5fr ;
 	padding-bottom: 40px;
-  background: #4066AA;
+  background: #080C08;
 	padding: 25px;
 	  grid-gap: 1em;
 
 }
 
-#upperFooter p
+#upperFooter p, a
 {
-  line-height: 180px;
+  line-height: 40px; font-size: 16px; color: #707070;
 }
+
+#upperFooter h4 {
+	font-size: 35px; text-align: center; margin-bottom: 5px; color: #F5F5F5;
+}
+
 
 
 #footerLogo
@@ -347,8 +438,34 @@ line-height: 50px;
 	margin-left: 40px;
 	margin-right: 40px;
   margin-bottom: 20px;
-  background: #293F67;
 }
+
+#footerLogo img {
+ width: 170px;
+ display: flex;
+ margin: auto;
+}
+
+.footerButton
+{
+	  background-color: #1C6836;
+	  border-radius: 20px;
+	  width: 75px;
+	  height: 24px;
+	  border: none;
+	  color: white;
+	  margin-left: 50px;
+	  padding: 5px 5px 5px 5px;
+	  text-align: center;
+	  text-decoration: none;
+	  display: inline-block;
+	  font-size: 10px;
+		line-height: 24px;
+	  cursor: pointer;
+}
+
+#joinNow:hover { background: #CBC0C0; color: #444040; }
+#contactButton:hover { background: #CBC0C0; color: #444040; }
 
 #footerContact
 {
@@ -356,8 +473,11 @@ line-height: 50px;
 	grid-row: 1/2;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67;
 }
+
+#footerContact, #footerNews, #footerNav h4 { font-size: 23px; text-align: center; margin-bottom: 5px; color: #F5F5F5}
+
+#footerContact a , #footerNews a { margin: 5px 20%}
 
 #footerNews
 {
@@ -365,7 +485,6 @@ line-height: 50px;
   grid-row: 1/2;
   margin-top:30px;
   margin-bottom: 20px;
-  background: #293F67;
 }
 
 
@@ -374,8 +493,26 @@ line-height: 50px;
 	grid-column: 1/3;
 	grid-row: 4/5;
 	height: 100px;
-  margin-bottom: 20px;
-  background: #293F67;
+	margin-top: 15px;
+	text-align: center;
+}
+ #footerNav ul {
+	 display: flex;
+	 justify-content: flex-start;
+	 flex-direction: row;
+	 margin-top: 17px;
+ }
+#footerNav ul li {
+	text-decoration: none;
+	padding-top: 12px;
+	padding: 0 2%;
+  margin: auto;
+	font-size: 16px;
+}
+
+#footerNav ul li a:hover
+{
+ color: #3FA353;
 }
 
 
@@ -385,9 +522,32 @@ line-height: 50px;
 	grid-row: 2/3;
   margin-top: 20px;
   margin-bottom: 20px;
-  background: #293F67;
 }
 
+#socialMedia ul {
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: row;
+}
+
+#socialMedia ul li
+{
+	padding: 0 2%;
+  margin: auto;
+}
+
+
+#socialMedia ul li a img
+{
+	min-width:51px;
+	min-height: 51px;
+
+}
+
+#socialMedia ul li a:hover
+{
+	color: #3FA353;
+}
 #socialMedia p
 {
   line-height: 55px;
@@ -403,6 +563,11 @@ line-height: 50px;
 		background: url(../images/home_mobile_banner3.3.jpg) no-repeat bottom;
 	}
 
+}
+
+@media screen and (min-width:26em) {
+	#HomeBeerPromoText a { display:block;}
+	#charity a { display:block;}
 }
 
 /*@media screen and (min-width:32em) {
@@ -425,6 +590,55 @@ line-height: 50px;
 
 	}
 } */
+
+@media screen and (min-width:29em) {
+	 #footerNews a { margin: 5px 35%}
+	 	#HomeBeerPromoText h2 { font-size: 21px;}
+}
+
+@media screen and (min-width: 36em) {
+	#HomeBeerPromoText h2 { font-size: 25px;}
+
+	#tagline h3 { margin : auto; font-weight: bolder;}
+	#tagline h4 {  font-size: 25px; margin-top:30%;}
+}
+
+@media screen and (min-width:39em) {
+	#charity
+	{
+
+		background: url(../images/community_mobile_size3.2.jpg) center no-repeat;
+	}
+
+  #charityText p { font-size: 15px;}
+
+	#learnMoreBtn { }
+
+	#upperFooter h4 {
+		font-size: 39px; text-align: center; margin-bottom: 5px; color: #F5F5F5
+	}
+
+	#upperFooter p, a
+	{
+	 font-size: 24px; color: #707070;
+	}
+
+	#footerLogo img {
+	 width: 190px;
+ }
+
+ #socialMedia ul li a img {
+ 	min-width:70px; min-height: 70px;
+}
+.footerButton
+{
+	  width: 90px;
+	  height: 30px;
+	  font-size: 15px;
+		line-height: 27px;
+	  }
+
+}
 
 @media screen and (min-width:45em) {
 	/*#HomeBeerPromoText {
@@ -459,6 +673,69 @@ line-height: 50px;
 
 	}
 
+	#charity
+	{
+
+		background: url(../images/community_mobile_size4.jpg) center no-repeat;
+	}
+
+	#homeEvents
+	{
+		padding-bottom: 15px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		margin-top: 20px;
+	}
+
+	#eventsText
+	{
+		min-width: 600px;
+		width: 87%;
+		height: 130px;
+		margin-top: 50px;
+		margin-bottom: 10px;
+	}
+
+	#eventsText p
+	{
+		line-height: 50px;
+	}
+
+
+	.subheading
+	{
+		font-size: 24px;
+
+	}
+
+	.lowerSub
+	{
+		color: #367D34;
+		font-size: 21px;
+	}
+
+
+
+	#theEvents
+	{
+	  margin: 0 auto;
+		margin-bottom: 25px;;
+		display: flex;
+		flex-direction: column;
+	  justify-content: space-between;
+		padding-bottom: 5px;
+	  background: #212020;
+		flex-wrap: nowrap;
+	}
+
+	#theEvents p
+	{
+	  line-height: 80px;
+		font-size: 21px;
+	}
+
+	#charityText p { font-size: 17px;}
 }
 
 @media screen and (min-width:55em) {
@@ -489,6 +766,9 @@ line-height: 50px;
 		background: #07231B;
 		top: 120px;
 		transition: 0.5s;
+
+
+
 	}
 
 	/*#heroImage {
@@ -597,40 +877,6 @@ line-height: 50px;
 	}
 
 
-
-	#HomeBeerPromoText1
-	{
-		margin-top: 40px;
-		padding-bottom: 20px;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
-		background: #ccc;
-		border-bottom: solid 2px #ccc;
-	}
-
-	#homeBeer1
-	{
-		margin-top: 20px;
-		width: 261px;
-		height: 92px;
-		background: #4066AA;
-		margin-left: 20px;
-	}
-
-	#HomeBeerPromoImg1
-	{
-		margin-top: 20px;
-		margin-left: auto;
-		margin-right: 20px;
-		width: 821px;
-		height: 92px;
-		background: #4066AA;
-	}
-
-
-	/* testing */
-
 	#homeBeer
 	{
 		padding-bottom: 1px;
@@ -639,23 +885,32 @@ line-height: 50px;
 		flex-direction: row;
 		justify-content: flex-start;
 		background: #4066AA;
-		height: 457px;
+		height: 415px;
+		background: url(../images/home_product_mobile_promo4_bckgrd2_desktop.jpg) no-repeat bottom;
 	}
 
-	#homeBeer p
+	#homeBeer h2
 	{
-		line-height: 250px;
+		line-height: 70px;
 	}
 
 	#HomeBeerPromoText
 	{
 		width: 572px;
-		height: 338px;
+		height: 298px;
 		margin-top: 90px;
 		margin-left: 120px;
 		margin-bottom: 50px;
 		order: -1;
-		background: #293F67;
+	}
+
+	#HomeBeerPromoText h2 { font-size: 32px;}
+
+	#homeBeerBottle {
+		background: url(../images/home_promo_only_bottles2_desktop.png) no-repeat bottom;
+		min-height: 339px;
+		min-width: 335px;
+		margin: 0 auto;
 	}
 
 	#HomeBeerPromoImg
@@ -677,7 +932,7 @@ line-height: 50px;
 		display: flex;
 		flex-direction: row;
 		justify-content: flex-start;
-		background: #4066AA;
+			background: url(../images/comunity_desktop1.jpg) no-repeat bottom;
 		margin-top: 25px;
 	}
 
@@ -685,84 +940,16 @@ line-height: 50px;
 	{
 		min-width: 420px;
 		margin-top: 40px;
-		margin-left: 30%;
-		margin-right: 30%;
+		margin-left: 25%;
+		margin-right: 25%;
 		margin-bottom: 40px;
-		background: #293F67;
 	}
 
-	#charityText p
-	{
-		line-height: 250px;
-	}
+#charityText h3 { font-size: 36px}
 
+#charityText p { line-height: 43px; font-size: 18px; margin-top: 50px;}
 
-	#homeEvents
-	{
-		padding-bottom: 15px;
-		display: flex;
-		flex-direction: row;
-		justify-content: flex-start;
-		background: #4066AA;
-		margin-top: 20px;
-	}
-
-	#eventsText
-	{
-		min-width: 900px;
-		width: 87%;
-		height: 130px;
-		margin-top: 50px;
-		margin-bottom: 10px;
-		background: #293F67;
-	}
-
-	#eventsText p
-	{
-		line-height: 120px;
-	}
-
-	#theEvents
-	{
-		margin-bottom: 20px;
-		display: flex;
-		flex-direction: row;
-		justify-content: space-between;
-		padding-bottom: 5px;
-		background: #4066AA;
-	}
-
-	#theEvents p
-	{
-		line-height: 260px;
-	}
-
-	#events1
-	{
-		min-width: 250px;
-		min-height: 224px;
-		margin-top:30px;
-		margin-bottom: 50px;
-		background: #293F67;
-	}
-
-	#events2
-	{
-		min-width: 250px;
-		min-height: 224px;
-		margin-top:30px;
-		margin-bottom: 50px;
-		background: #293F67
-	}
-
-	#events3
-	{
-		min-width: 250px;
-		min-height: 224px;
-		margin-top:30px;
-		margin-bottom: 50px;
-		background: #293F67
-	}
+#learnMoreBtn {}
 
 	#upperFooter
 	{
@@ -772,13 +959,27 @@ line-height: 50px;
 		grid-template-rows:   0.5fr 0.5fr;
 		justify-content: space-between;
 		padding-bottom: 40px;
-		background: #4066AA;
 	}
 
 	#upperFooter p
-	{
-		line-height: 180px;
-	}
+	{ line-height: 40px; font-size: 13px; }
+
+	#upperFooter h4 { font-size: 25px;}
+
+	#footerNav ul {
+ 	 display: flex;
+ 	 justify-content: flex-start;
+ 	 flex-direction: column;
+	 line-height: 5px;
+	 margin-top: 0;
+
+
+  }
+ #footerNav ul li a { font-size: 14px; }
+
+ #socialMedia ul { margin-left: 17px;}
+
+ #socialMedia ul li a img { min-width:55px; min-height: 55px; }
 
 
 	#footerLogo
@@ -790,8 +991,9 @@ line-height: 50px;
 		margin: 0 auto;
 		margin-top:30px;
 		margin-bottom: 20px;
-		background: #293F67;
 	}
+
+	#footerLogo p { margin: 30px;}
 
 	#footerContact
 	{
@@ -802,7 +1004,6 @@ line-height: 50px;
 		margin: 0 auto;
 		margin-top:30px;
 		margin-bottom: 20px;
-		background: #293F67
 	}
 
 	#footerNews
@@ -814,9 +1015,8 @@ line-height: 50px;
 		margin: 0 auto;
 		margin-top:30px;
 		margin-bottom: 20px;
-		background: #293F67
 	}
-
+#footerNews a { margin: 5px 25%}
 
 	#footerNav
 	{
@@ -827,8 +1027,9 @@ line-height: 50px;
 		margin: 0 auto;
 		margin-top:30px;
 		margin-bottom: 20px;
-		background: #293F67
 	}
+
+
 
 	#socialMedia
 	{
@@ -836,7 +1037,6 @@ line-height: 50px;
 		grid-row: 2/3;
 		height: 57px;
 		margin-top: 20px;
-		background: #293F67;
 	}
 
 	#socialMedia p
@@ -934,6 +1134,9 @@ line-height: 50px;
 	  border-bottom: solid 2px #ccc;
 	}
 
+	#tagline h3 {font-weight: bolder;}
+	#tagline h4 {  font-size: 28px; margin-top:310px; margin-bottom: 20px;; color: #FEFEFE}
+
 	#tagLineImage
 	{
 	  max-width: 1250px;
@@ -941,76 +1144,9 @@ line-height: 50px;
 	  margin-left: 50px;
 	  margin-right: 50px;
 		background: url(../images/home_banner_2.jpg) no-repeat bottom;
+}
 
-
-	}
-
-	#tagLineImage p
-	{
-	  line-height: 200px;
-	}
-
-
-
-	#HomeBeerPromoText1
-	{
-		margin-top: 40px;
-		padding-bottom: 20px;
-		display: flex;
-		flex-direction: row;
-	  justify-content: flex-start;
-	  background: #ccc;
-		border-bottom: solid 2px #ccc;
-	}
-
-	#homeBeer1
-	{
-	  margin-top: 20px;
-		width: 261px;
-	  height: 92px;
-	  background: #4066AA;
-	  margin-left: 20px;
-	}
-
-	#HomeBeerPromoImg1
-	{
-	  margin-top: 20px;
-	  margin-left: auto;
-	  margin-right: 20px;
-		width: 821px;
-	  height: 92px;
-	  background: #4066AA;
-	}
-
-
-	/* testing */
-
-	#homeBeer
-	{
-		padding-bottom: 1px;
-		max-height: 456px;
-		display: flex;
-		flex-direction: row;
-	  justify-content: flex-start;
-	  background: #4066AA;
-		height: 457px;
-	}
-
-	#homeBeer p
-	{
-		line-height: 250px;
-	}
-
-	#HomeBeerPromoText
-	{
-		width: 572px;
-	  height: 338px;
-	  margin-top: 90px;
-	  margin-left: 120px;
-	  margin-bottom: 50px;
-		order: -1;
-	  background: #293F67;
-	}
+#HomeBeerPromoText h2 { font-size: 34px;}
 
 	#HomeBeerPromoImg
 	{
@@ -1031,22 +1167,27 @@ line-height: 50px;
 		display: flex;
 		flex-direction: row;
 	  justify-content: flex-start;
-	  background: #4066AA;
 	  margin-top: 25px;
 	}
 
 	#charityText
 	{
-		width: 458px;
+		width: 595px;
 	  margin-top: 25px;
-	  margin-left: 35%;
-	  margin-bottom: 25px;
-	  background: #293F67;
-	}
 
-	#charityText p
-	{
-	  line-height: 290px;
+	}
+  #charityText h3 { margin-bottom: 40px;}
+	#charityText p { margin-top: 60px;}
+	.button2 {
+	  width: 88px;
+	  height: 7px;
+	  margin-top: 4%;
+	  margin-left:39%;
+		margin-right: 39%;
+	  padding: 20px 20px 20px 20px;
+		line-height: 10px;
+	  font-size: 16px;
+
 	}
 
 
@@ -1056,7 +1197,6 @@ line-height: 50px;
 		display: flex;
 		flex-direction: row;
 	  justify-content: flex-start;
-	  background: #4066AA;
 		margin-top: 20px;
 	}
 
@@ -1067,12 +1207,11 @@ line-height: 50px;
 	  height: 130px;
 	  margin-top: 50px;
 	  margin-bottom: 10px;
-	  background: #293F67;
 	}
 
 	#eventsText p
 	{
-	  line-height: 120px;
+	  line-height: 50px;
 	}
 
 	#theEvents
@@ -1082,118 +1221,19 @@ line-height: 50px;
 		flex-direction: row;
 	  justify-content: space-between;
 		padding-bottom: 5px;
-	  background: #4066AA;
 	}
 
 	#theEvents p
 	{
-	  line-height: 260px;
+	  line-height: 80px;
 	}
 
-	#events1
-	{
-	  width: 330px;
-	  height: 254px;
-	  margin-top:30px;
-	  margin-bottom: 50px;
-	  background: #293F67;
-	}
+#events {
+	background: #fff;
+}
 
-	#events2
-	{
-	  width: 330px;
-	  height: 254px;
-	  margin-top:30px;
-	  margin-bottom: 50px;
-	  background: #293F67
-	}
+	#upperFooter h4 { font-size: 28px}
+	#upperFooter p { font-size: 13px; }
+#socialMedia ul { margin: 0 10%;}
 
-	#events3
-	{
-	  width: 330px;
-	  height: 254px;
-	  margin-top:30px;
-	  margin-bottom: 50px;
-	  background: #293F67
-	}
-
-	#upperFooter
-	{
-		display: grid;
-		flex-direction: row;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
-	  grid-template-rows:   0.5fr 0.5fr;
-	  justify-content: space-between;
-		padding-bottom: 40px;
-	  background: #4066AA;
-	}
-
-	#upperFooter p
-	{
-	  line-height: 180px;
-	}
-
-
-	#footerLogo
-	{
-		grid-column: 1/2;
-		grid-row: 1/2;
-	  width: 186px;
-	  height: 166px;
-		margin: 0 auto;
-	  margin-top:30px;
-	  margin-bottom: 20px;
-	  background: #293F67;
-	}
-
-	#footerContact
-	{
-		grid-column: 2/3;
-		grid-row: 1/2;
-		width:186px;
-	  height: 166px;
-		margin: 0 auto;
-	  margin-top:30px;
-	  margin-bottom: 20px;
-	  background: #293F67
-	}
-
-	#footerNews
-	{
-		grid-column: 3/4;
-		grid-row: 1/2;
-	  width:186px;
-	  height: 166px;
-		margin: 0 auto;
-	  margin-top:30px;
-	  margin-bottom: 20px;
-	  background: #293F67
-	}
-
-
-	#footerNav
-	{
-		grid-column: 4/5;
-		grid-row: 1/2;
-	  width: 186px;
-	  height: 166px;
-		margin: 0 auto;
-	  margin-top:30px;
-	  margin-bottom: 20px;
-	  background: #293F67
-	}
-
-	#socialMedia
-	{
-		grid-column: 2/4;
-		grid-row: 2/3;
-	  height: 57px;
-	  margin-top: 20px;
-	  background: #293F67;
-	}
-
-	#socialMedia p
-	{
-	  line-height: 55px;
-	}
 }
