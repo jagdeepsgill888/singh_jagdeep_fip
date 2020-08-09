@@ -144,9 +144,12 @@ p
   background: url(../images/hero_mobile.jpg) no-repeat bottom;
 }
 
-#heroImage p
+#heroImage h2
 {
-  line-height: 450px;
+  font-size: 40px;
+	text-align: center;
+	padding-top: 250px;
+	color: #fff;
 }
 
 
@@ -550,6 +553,8 @@ line-height: 50px;
   line-height: 55px;
 }
 
+/* end of page one */
+
 @media screen and (min-width:26em) {
 
 	#heroImage {
@@ -566,31 +571,13 @@ line-height: 50px;
 	#HomeBeerPromoText a { display:block;}
 	#charity a { display:block;}
 }
-
-/*@media screen and (min-width:32em) {
-	#HomeBeerPromoText {
-	height: 47%;
-	width: 50%;
-	margin-top: 90px;
-	margin-bottom: 30px;
-	}
-
-	#HomeBeerPromoImg {
-		height: 57%;
-		width: 50%;
-		margin-left: 20px;
-		margin-bottom: 20px;
-	}
-
-	#homeBeer
-	{
-
-	}
-} */
+/* end of page one */
 
 @media screen and (min-width:29em) {
 	 #footerNews a { margin: 5px 35%}
 	 	#HomeBeerPromoText h2 { font-size: 21px;}
+
+		/* end of page one */
 }
 
 @media screen and (min-width: 36em) {
@@ -598,6 +585,7 @@ line-height: 50px;
 
 	#tagline h3 { margin : auto; font-weight: bolder;}
 	#tagline h4 {  font-size: 25px; margin-top:30%;}
+	/* end of page one */
 }
 
 @media screen and (min-width:39em) {
@@ -634,24 +622,11 @@ line-height: 50px;
 	  font-size: 15px;
 		line-height: 27px;
 	  }
-
+/* end of page one */
 }
 
 @media screen and (min-width:45em) {
-	/*#HomeBeerPromoText {
-	height: 53%;
-	width: 50%;
-	margin-top: 80px;
-	margin-bottom: 30px;
-	}
 
-	#HomeBeerPromoImg {
-		height: 63%;
-		width: 50%;
-		margin-left: 20px;
-		margin-top: 65px;
-		margin-bottom: 20px;
-	} */
 }
 
 @media screen and (min-width:47em) {
@@ -733,6 +708,7 @@ line-height: 50px;
 	}
 
 	#charityText p { font-size: 17px;}
+	/* end of page one */
 }
 
 @media screen and (min-width:55em) {
@@ -762,18 +738,8 @@ line-height: 50px;
 		background: #07231B;
 		top: 120px;
 		transition: 0.5s;
-
-
-
-	}
-
-	/*#heroImage {
-	 background: url(../images/hero_mobile_big2.jpg) no-repeat bottom;
-	} */
-
-	/*#tagLineImage {
-		background: url(../images/home_banner_3.jpg) no-repeat bottom;
-	} */
+  }
+/* end of page one */
 }
 
 @media screen and (min-width:58em) {
@@ -840,10 +806,13 @@ line-height: 50px;
 		}
 
 
-	#heroImage p
-	{
-		line-height: 450px;
-	}
+		#heroImage h2
+		{
+		  font-size: 47px;
+			text-align: center;
+			padding-top: 230px;
+			color: #fff;
+		}
 
 
 	#tagline
@@ -1037,7 +1006,7 @@ line-height: 50px;
 		line-height: 55px;
 	}
 
-
+/* end of page one */
 
 }
 
@@ -1229,4 +1198,248 @@ line-height: 50px;
 	#upperFooter p { font-size: 13px; }
 #socialMedia ul { margin: 0 10%;}
 
+/* end of page one */
+}
+
+
+
+/* page 2 starts here*/
+
+#heroAbout
+{
+  margin-top: 55px;
+	padding-bottom: 20px;
+
+}
+
+ #heroImageAbout {
+  height: 448px;
+	height: 780px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background: url(../images/about_hero_mobile2.jpg) no-repeat bottom;
+}
+
+#heroImageAbout h2
+{
+  font-size: 40px;
+	text-align: center;
+	padding-top: 230px;
+	color: #fff;
+}
+	#aboutWho
+	{
+	  margin-top: 20px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+
+	#aboutWho h3 {font-weight: bolder; color: #22C71C; padding-top: 27px;}
+
+	#aboutWhoimage
+	{
+	  min-height: 350px;
+		margin-left: 20px;
+	  margin-right: 20px;
+		background: url(../images/about_section_mobile2.jpg) no-repeat bottom;
+	}
+
+	#aboutWhoimage p
+	{
+	line-height: 35px;
+	padding-top: 50px;
+	margin-top: 20px;
+	font-size: 14px;
+	}
+
+	#partnership
+	{
+	  margin-bottom: 10px;
+		min-height: 282px;
+		display: flex;
+		flex-direction: row;
+	  justify-content: flex-start;
+	  margin-top: 25px;
+		background: url(../images/about_partnership_mobile2.jpg) center no-repeat;
+	}
+
+	#partnershipText
+	{
+		min-width: 292px;
+	  margin-top: 25px;
+	  margin-left: 10%;
+		margin-right: 10%;
+	  margin-bottom: 25px;
+		flex-grow: 1;
+	}
+
+	#partnershipText h3
+	{
+		font-weight: bolder;
+	  color: #22C71C;
+		text-align: center;
+	}
+
+	#partnershipText p {
+		margin-top: 35px;
+		font-size: 13px;
+		line-height: 30px;
+	}
+
+	#theAwards
+	{
+	  margin: 0 auto;
+		margin-bottom: 25px;
+		display: flex;
+		flex-direction: column;
+	  justify-content: space-between;
+		padding-bottom: 5px;
+		flex-wrap: nowrap;
+
+	}
+
+#theAwards h3 { text-align: center; margin-bottom: 25px;}
+
+	#theAwards p
+	{
+	  line-height: 80px;
+		font-size: 21px;
+	}
+
+
+	.awards
+	{
+
+		min-width: 266.96px;
+	  min-height:145.94px;
+	  /* margin-top:30px; */
+		 margin: 30px;
+	  margin-bottom: 50px;
+		flex-grow: 1;
+		margin: auto;
+	}
+
+	#award2 img  {
+		margin-left: 30%;
+	}
+
+	#award3 img  {
+		margin-left: 30%;
+				height: 130px;
+		}
+
+
+
+@media screen and (min-width:26em) {
+
+	#heroImageAbout {
+	 background: url(../images/about_hero_mobile2_big.jpg) no-repeat bottom;
+	}
+
+	#aboutWhoimage {
+		background: url(../images/about_section_mobile2.2.jpg) no-repeat bottom;
+	}
+
+	#aboutWho p { font-size: 17px;}
+}  #partnershipText p { font-size: 17px;}
+
+@media screen and (min-width:39em) {
+	#partnership
+	{
+
+		background: url(../images/about_partnership_mobile2.2_big.jpg) center no-repeat;
+	}
+
+  #partnershipText p { font-size: 15px;}
+
+	#awards2 img {
+		height: 150px;
+	}
+
+	#award3  img {
+		height: 140px;
+	}
+}
+
+
+@media screen and (min-width:47em) {
+	#aboutWhoimage {
+		background: url(../images/about_section_mobile2.3.jpg) no-repeat bottom;
+	}
+
+	#aboutWho p { font-size: 19px;}
+ #partnershipText p { font-size: 19px;}
+}
+
+@media screen and (min-width:58em) {
+	#heroImageAbout {
+	 height: 448px;
+	 margin-left: 55px;
+	 margin-right: 50px;
+	 flex-grow: 1;
+	 background: url(../images/about_hero.jpg) no-repeat bottom;
+	 }
+
+	 #heroImageAbout h2 {
+		 padding-top:180px;
+	 }
+
+	 #aboutWho
+	 {
+		 margin-top: 20px;
+		 padding-bottom: 20px;
+	 }
+
+	 #aboutWho h3 {font-weight: bolder;}
+
+#aboutWho p { font-size: 21px; margin-top: 30px;}
+
+
+	 #aboutWhoimage
+	 {
+		 max-width: 1250px;
+		 height: 393px;
+		 margin-left: 50px;
+		 margin-right: 50px;
+		 background: url(../images/about_section.jpg) no-repeat bottom;
+	}
+
+	#partnership
+	{
+		margin-bottom: 10px;
+		height: 392px;
+		display: flex;
+		flex-direction: row;
+		justify-content: flex-start;
+		background: url(../images/about_partnership.jpg) no-repeat bottom;
+		margin-top: 25px;
+	}
+
+	#partnershipText
+	{
+		min-width: 420px;
+		margin-top: 40px;
+		margin-left: 25%;
+		margin-right: 25%;
+		margin-bottom: 40px;
+	}
+
+#partnershipText h3 { font-size: 36px}
+
+#partnershipText p { line-height: 43px; font-size: 21px; margin-top: 50px;}
+
+#theAwards
+{
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-bottom: 5px;
+}
+
+#theAwards h3 {
+	padding: 60px 100px 100px 100px;
+	font-size: 50px;
+	margin-bottom: 15px;
+}
 }
