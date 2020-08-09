@@ -1532,7 +1532,7 @@ line-height: 50px;
 	flex-direction: row;
 	justify-content: flex-start;
 	margin-top: 25px;
-	background: url(../images/contact_partner_mobile2.jpg) center no-repeat;
+	background: url(../images/product_suggestion_mobile.jpg) center no-repeat;
 }
 
 #suggestionText
@@ -1553,7 +1553,7 @@ line-height: 50px;
 	text-align: center;
 }
 
-#contactPartnerText p {
+#suggestionText p {
 	padding-top: 50px;
 	font-size: 13px;
 	color: #E8FFF0;
@@ -1567,6 +1567,18 @@ line-height: 50px;
 	 background: url(../images/product_hero_mobile_new_big.jpg) no-repeat bottom;
 	}
 }
+
+@media screen and (min-width:39em) {
+	#suggestionHow
+	{
+
+		background: url(../images/product_suggestion_mobile2_big.jpg) center no-repeat;
+	}
+
+  #suggestionText p { font-size: 16px;}
+}
+
+
 
 @media screen and (min-width:58em) {
 
@@ -1642,6 +1654,53 @@ line-height: 50px;
 
 #product4 {
 	background: url(../images/product_blue1.jpg) no-repeat bottom;
+}
+
+
+#suggestionHow
+{
+ padding-bottom: 40px;
+ display: flex;
+ flex-direction: row;
+	justify-content: flex-start;
+	background: #2E542F;
+ margin-top: 10px;
+ height: 392px;
+ margin-bottom: 10px;
+ background: url(../images/beer_sence2_product_idea.jpg) no-repeat bottom;
+}
+
+#suggestionText p
+{
+ text-align: center;
+
+}
+
+#suggestionText
+{
+ width: 590px;
+	height: 370px;
+	margin-top: 40px;
+	margin-left: 120px;
+	margin-bottom: 50px;
+}
+
+#suggestionText h3
+{
+	margin-top: 10px;
+	padding: 20px;
+	font-size: 34px;
+	color: #EEEBEB;
+ text-align: left;
+}
+
+#suggestionText p
+{
+ margin-top: 70px;
+ font-size: 21px;
+ line-height: 30px;
+ color: #F5F4F4;
+ text-align: left;
 }
 
 
