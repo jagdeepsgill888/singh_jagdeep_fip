@@ -1815,8 +1815,7 @@ line-height: 50px;
 
   #winGiftImg
   {
-   margin: auto ;
- 	 background: url(../images/win_gift_mobile.jpg) no-repeat bottom;
+ 	 background: url(../images/winGift_mobile2.jpg) no-repeat bottom;
 	 order: -1;
   }
 
@@ -1825,10 +1824,16 @@ line-height: 50px;
  	color: #F5F5F5;
  	padding-top:150px;
  	line-height: 70px;
-	font-size: 20px;
+ margin: 0 30%;
+	font-size: 30px;
   }
 
-
+	#winGiftText h2
+  {
+ 	 font-size: 32px;
+ 	 color: #EEEBEB;
+ 	 text-align: center;
+  }
 
 
  @media screen and (min-width:26em) {
@@ -1865,6 +1870,14 @@ line-height: 50px;
 	 	margin-left: 40px;
 	 	margin-bottom: 10px;
 	 	}
+
+		#winGiftImg h3
+ 	 {
+
+ 	 margin: 0 35%;
+ 	 font-size: 30px;
+ 	 }
+
 }
 
 @media screen and (min-width:33.5em) {
@@ -1888,6 +1901,7 @@ line-height: 50px;
 	 .vidAbout {
 		 line-height: 40px;
 	 }
+
 }
 
 
@@ -1923,7 +1937,11 @@ line-height: 50px;
 		 width: 730px;
 		 height: 470px;
 	 }
-
+	 #winGiftImg
+	 {
+		 margin-top: 25px;
+	 	background: url(../images/winGift_mobile2_big.jpg) no-repeat bottom;
+	 }
 }
 
 @media screen and (min-width:55em) {
@@ -1981,9 +1999,8 @@ line-height: 50px;
 	 	padding-bottom: 40px;
 	 	display: flex;
 	 	flex-direction: row;
-	   justify-content: flex-start;
+	  justify-content: flex-start;
 	   background: #212020;
-	 	height: 370px;
 	 	margin-bottom: 10px;
 	 }
 
@@ -1999,8 +2016,8 @@ line-height: 50px;
 	  #winGiftText h2
 	  {
 	 	 margin-top: 10px;
-	    padding: 30px 60px 30px 40px;
-	    font-size: 34px;
+	    padding: 30px 30px 30px 30px;
+	    font-size: 35px;
 	    color: #EEEBEB;
 	  	text-align: center;
 	  }
@@ -2022,6 +2039,7 @@ line-height: 50px;
 	 	color: #F5F5F5;
 	 	padding-top:150px;
 	 	line-height: 70px;
+		margin: 0 26%;
 	 }
 
 
