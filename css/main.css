@@ -291,6 +291,25 @@ line-height: 50px;
   cursor: pointer;
 }
 
+.button3 {
+  background-color: #000; /* black */
+  border-radius: 37px;
+  width: 78px;
+  height: 5px;
+  border: none;
+  color: white;
+  margin-top: 4%;
+  margin-left:39%;
+	margin-right: 39%;
+  padding: 20px 20px 20px 20px;
+	line-height: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+  cursor: pointer;
+}
+
 .button:active
 {
   position: relative;
@@ -298,6 +317,12 @@ line-height: 50px;
 }
 
 .button2:active
+{
+  position: relative;
+  top: 2px;
+}
+
+.button3:active
 {
   position: relative;
   top: 2px;
@@ -1140,7 +1165,7 @@ line-height: 50px;
 	}
   #charityText h3 { margin-bottom: 40px;}
 	#charityText p { margin-top: 60px;}
-	.button2 {
+	.button2, .button3 {
 	  width: 88px;
 	  height: 7px;
 	  margin-top: 4%;
@@ -2180,10 +2205,8 @@ line-height: 50px;
 #contactImg
 {
 margin: auto;
-padding-top: 70px;
- width: 433px;
-	height: 400px;
-	background: url(../images/contact_hours.jpg) no-repeat bottom;
+padding-top: 150px;
+	background: url(../images/contact_hours_mobile2.jpg) no-repeat bottom;
 }
 
 #contactImg h3
@@ -2198,6 +2221,8 @@ padding-top: 70px;
 {
  line-height: 30px;
  margin-top: 50px;
+ padding: 0 10%;
+ padding-bottom: 30px;
 }
 
 
@@ -2205,13 +2230,18 @@ padding-top: 70px;
 	margin-top:35px;
  display: flex;
  flex-direction:column;
- margin: auto;
+ margin-left: 20px;
+ margin-right: 20px;
  justify-content: space-between;
  line-height: 20px;
  color: #fff;
 }
 
-
+.blackText {
+	color: #000;
+	font-size: 25px;
+	padding: 10px 0;
+}
 
 
 
@@ -2267,7 +2297,26 @@ padding-top: 70px;
 	}
 
   #contactPartnerText p { font-size: 16px;}
+
+	#contactImg
+	{
+	   padding-top: 300px;
+		 margin: 0 10%;
+		background: url(../images/contact_hours.jpg) no-repeat bottom;
+	}
+
+	#contactImg h3 {
+		font-size: 38px;
+
 }
+
+	#contactImg p {
+		font-size: 23px;
+		padding: 0 20%;
+		padding-bottom: 40px;
+	}
+}
+
 
 @media screen and (min-width:58em) {
 	#contactHeroImage {
@@ -2298,12 +2347,11 @@ padding-top: 70px;
 
 	 #contactUs
 	 {
-	 	padding-bottom: 60px;
+	 	padding-bottom: 150px;
 	 	display: flex;
 	 	flex-direction: row;
 	   justify-content: flex-start;
 	   background: #2E542F;
-	 	height: 600px;
 	 }
 
 	 #contactUs h2
@@ -2337,10 +2385,11 @@ padding-top: 70px;
 
 	 #contactImg
 	 {
-	 	margin-left: 160px;
-	   margin-top: 90px;
+	 	margin-left: 10px;
+	   margin-top: 130px;
 	   margin-right: 60px;
-	   margin-bottom: 50px;
+		 padding-top: 50px;
+	   margin-bottom: -70px;
 	 	width: 433px;
 	   height: 400px;
 	   background: url(../images/contact_hours.jpg) no-repeat bottom;
@@ -2352,12 +2401,16 @@ padding-top: 70px;
 	 	margin-top: 80px;
 	 	line-height: 100px;
 		text-align: center;
+		font-size: 42px;
 	 }
 
 	 #contactImg p
 	 {
 	 	line-height: 30px;
 	 	margin-top: 50px;
+		font-size: 35px;
+		padding: 0 50px;
+		line-height: 40px;
 	 }
 
 	 #contactPartner
@@ -2434,6 +2487,9 @@ padding-top: 70px;
 	 }
 
  }
+
+
+
 
 @media screen and (min-width:64em) {
 	#contactPartnerText  {
