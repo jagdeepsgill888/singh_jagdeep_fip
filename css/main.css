@@ -29,6 +29,7 @@ p
 
 
 
+
 #siteContainer
 {
 	margin: 0 auto;
@@ -490,6 +491,7 @@ line-height: 50px;
 }
 
 #joinNow:hover { background: #CBC0C0; color: #444040; }
+.buy:hover { background: #CBC0C0; color: #444040; }
 #contactButton:hover { background: #CBC0C0; color: #444040; }
 
 #footerContact
@@ -1507,6 +1509,10 @@ line-height: 50px;
 
 }
 
+#headingProduct {
+	text-align: center;
+	margin-bottom: 20px;
+}
 
 .beerOptions
 {
@@ -1522,31 +1528,53 @@ line-height: 50px;
 	width: 500px;
 	align-content: center;
 	padding: 100px;
+	padding-bottom: 20px;
 	background-color: #fff;
 }
 .box p {
 	color: #000;
 	font-size: 16px;
 	text-align:  center;
-	padding-top: 5px;
+	padding-top: 100px;
 }
 
 #product1 {
-	/*background: url(../images/product_green2.jpg) no-repeat bottom; */
+	background: url(../images/product_green_mobile1.jpg) no-repeat bottom;
+}
+
+#product1 p {
+
 }
 
 #product2 {
-/*	background: url(../images/product_black2.jpg) no-repeat bottom; */
+background: url(../images/product_black_mobile1.jpg) no-repeat bottom;
 }
 
 #product3 {
-/*	background: url(../images/product_red3.jpg) no-repeat bottom; */
+background: url(../images/product_red_mobile1.jpg) no-repeat bottom;
 }
 
 #product4 {
-	/*background: url(../images/product_blue1.jpg) no-repeat bottom; */
+	background: url(../images/product_blue_mobile1.jpg) no-repeat bottom;
 }
 
+.heartIcon {
+	width: 30px;
+	padding-left: 60px;
+	cursor: pointer;
+
+}
+
+
+.heartIcon.liked {
+	fill: #49a64d;
+}
+
+.heartIcon:hover
+{
+	fill: #49a64d;
+
+}
 
 
 #suggestionHow
@@ -1643,10 +1671,12 @@ line-height: 50px;
 .beerOptions
 {
 	display:flex;
+	height: 899px;
 	flex-wrap: wrap;
   flex-direction: column;
 	justify-content: space-between;
 	align-content: center;
+	margin-bottom: 60px;
 
 
 
@@ -1654,15 +1684,16 @@ line-height: 50px;
 
 .box
 {
-	width: 500px;
+	width: 408px;
 	align-content: center;
-	padding: 100px;
+	padding: 15px;
+	height: 400px;
 }
 .box p {
 	color: #000;
 	font-size: 16px;
 	text-align:  center;
-	padding-top: 5px;
+	padding-top: 430px;
 }
 
 #product1 {

@@ -4,6 +4,7 @@
 
 	let menuToggle = document.querySelector("#menuToggle"),
       burgerCon = document.querySelector("#mainNav");
+			heartCon = document.querySelector(".heartIcon")
 
 	function hamburgerMenu() {
     burgerCon.classList.toggle("slideToggle");
@@ -11,5 +12,11 @@
 
 	}
 
+	function heartSelect() {
+    heartCon.classList.toggle("liked");
+
+	}
+
 	menuToggle.addEventListener("click", hamburgerMenu);
+	heartCon.addEventListener("click", heartSelect);
 })();
